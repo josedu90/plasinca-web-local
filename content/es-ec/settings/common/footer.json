@@ -1,0 +1,11 @@
+{
+    "txt": "En Plasinca contámos con el Certificado de inocuidad FSSC 22000",
+    "policy":{
+        "txt": "POLITICA DE PROTECCIÓN DE DATOS  PERSONALES Y PRIVACIDAD ",
+        "link": {
+            "url": "policy",
+            "type": "mk",
+            "blank": true
+        }
+    }
+}

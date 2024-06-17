@@ -1,0 +1,10 @@
+/client
+/lambda
+/content
+vite.config.ts
+package.json
+.env*
+.netlify
+components.d.ts
+content
+.json

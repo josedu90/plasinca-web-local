@@ -1,0 +1,18 @@
+[build.environment]
+  
+[build]
+  # Directory to change to before starting a build.
+  # This is where we will look for package.json/.nvmrc/etc.
+  # If not set, defaults to the root directory
+  publish = "dist"
+  functions ="lambda/functions"
+
+[functions]
+  included_files = ["content/**/*","views/**/*",".flow/manifest.json","shared/seo_images/**/*","public/databases/**/*"]
+  external_node_modules = ["vue","tslib"]
+
+
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404

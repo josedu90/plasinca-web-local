@@ -1,0 +1,15 @@
+/* Organismos */
+.header{
+    @apply bg-primary py-[16px];
+}
+.footer{
+    @apply bg-primary py-[16px];
+    .top{
+        @apply text-[1.5rem] text-secundary font-bold transition-all duration-[0.5s] hover:opacity-60;
+    }
+    .submenu{
+        .option{
+            @apply text-[1.25rem] text-gray-400 transition-all duration-[0.5s] hover:opacity-60;
+        }
+    }
+}

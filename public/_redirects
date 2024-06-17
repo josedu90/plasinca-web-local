@@ -1,0 +1,2 @@
+/proxy-auth/* /.netlify/functions/auth 200
+/proxy-lead/* /.netlify/functions/lead 200

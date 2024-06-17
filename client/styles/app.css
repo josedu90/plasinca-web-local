@@ -1,0 +1,18 @@
+@import './atoms.css';
+@import './molecules.css';
+@import './organismos.css';
+
+/* @font-face {
+  font-family: "bold";
+  src: url("/fonts/FivoSans-Bold.otf") format("opentype");
+} */
+
+
+h1, h2, h3, h4, h5, h6{
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+  padding: 0;
+  margin: 0;
+  display: inline;
+}

@@ -1,0 +1,18 @@
+.bg-patron{
+  background-image: url(/images/shared/patron.png);
+  background-size: cover;
+  @apply py-40 -mt-20 relative;
+}
+
+.bg-patron:before {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0;
+  border-top: 201px solid transparent;
+  border-left: 223px solid theme(colors.rojo.100);
+  width: 0;
+  @media (max-width: 600px) {
+    border-top: 100px solid transparent;
+    border-left: 100px solid theme(colors.rojo.100);
+  }
+}

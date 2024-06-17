@@ -1,0 +1,12 @@
+{
+    "logo_header": {
+        "src": "/images/shared/logo_header.png",
+        "title": "",
+        "alt": ""
+    },
+    "logo_footer": {
+        "src": "/images/shared/logo_header.png",
+        "title": "",
+        "alt": ""
+    }
+}

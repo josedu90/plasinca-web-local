@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="<%=it?.locale?.lang ||'es'%>">
+
+<head>
+  <%~ await includeFile('./head/scripts',it) %>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="MONKEY PLUS">
+  <link rel="icon" href="/images/favicon.png"/>
+   <%{vue%>
+  <head-metadata />
+  <%vue}%>
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <%~ it?.getHeadScripts() %>
+  <%~ it?.getHeadChunks() %>
+</head>
+<body>
+  <%~ await includeFile('./body/topScripts') %>
+
+  <%~ it.body%>
+
+  <%~ it?.getInjectContext() %>
+  <%~ it?.getBodyChunks() %>
+
+  <%~ await includeFile('./body/bottomScripts') %>
+  <%~ it?.getBodyEndScripts() %>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Les8fEiAAAAAPFAurHKgqAOIsxgmcesG2FeQpJN"></script>
+</body>
+</html>

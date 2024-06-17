@@ -1,0 +1,8 @@
+node_modules
+dist
+build
+scripts
+public/resources
+./static
+auto-imports.d.ts
+components.d.ts

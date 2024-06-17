@@ -1,0 +1,10 @@
+{
+    "quote":{
+        "txt": "COTIZA AQUÍ",
+        "icon": {
+            "src": "/images/iconos/bag-add-outline.png",
+            "alt": "",
+            "title": ""
+        }
+    }
+}

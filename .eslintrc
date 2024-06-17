@@ -1,0 +1,16 @@
+{
+  "extends": "@antfu",
+  "rules": {
+    "semi": ["error", "always"],
+    "@typescript-eslint/semi": ["error", "always"],
+    "@typescript-eslint/ban-ts-comment": "off",
+    "@typescript-eslint/prefer-ts-expect-error": "off",
+    "no-console": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "arrow-parens": ["warn", "always"],
+    "vue/no-restricted-v-bind": "off",
+    "vue/no-useless-v-bind": "off",
+    "vue/attribute-hyphenation": "off",
+    "vue/valid-attribute-name": "off"
+  }
+}
