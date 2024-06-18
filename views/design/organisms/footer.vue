@@ -45,7 +45,7 @@ const filteredData = menu.items.filter((item: { link: { url: string } }) => item
   <footer class="footer">
     <div class="container mx-auto">
       <div class="xl:px-20">
-        <div class="flex flex-wrap md:justify-between justify-center items-center border-solid border-white border-b-[1px] pb-3">
+        <div class="flex flex-wrap md:justify-between justify-center items-center border-solid border-white border-b-[1px] pb-3 mb-5">
           <mk-picture e-width="200" e-height="47" :src="logos?.logo_footer.src" :alt="logos?.logo_footer.alt" :title="logos?.logo_footer.title" />
           <p class="text-white md:text-left text-center text-[1.25rem]">
             {{ footer.txt }}

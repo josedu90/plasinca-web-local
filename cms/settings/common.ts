@@ -81,16 +81,26 @@ export default defineCmsCollection({
             {
               label: 'Botones comunes',
               fields: {
-                items: widgets.list({
+                quote: widgets.object({
                   label: 'Botón de cotización',
                   fields: {
                     txt: widgets.string({
-                      label: 'Texto'
+                      label: 'Texto',
                     }),
                     icon: widgets.image({
                       label: 'Logotipo',
                       ...media.iconos,
                       hint: 'Medidas: 24*24px',
+                    }),
+                  },
+                }),
+                whatsapp: widgets.object({
+                  label: 'Botón de Whatsapp',
+                  fields: {
+                    icon: widgets.image({
+                      label: 'Logotipo',
+                      ...media.iconos,
+                      hint: 'Medidas: 71*71px',
                     }),
                   },
                 }),
@@ -101,7 +111,7 @@ export default defineCmsCollection({
             {
               label: 'Footer',
               fields: {
-                txt: widgets.markdown({ label: 'Texto del certificado'}),
+                txt: widgets.markdown({ label: 'Texto del certificado' }),
                 policy: widgets.object({
                   label: 'Enlace de políticas de privacidad',
                   fields: {

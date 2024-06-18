@@ -1,10 +1,22 @@
 {
-    "quote":{
-        "txt": "COTIZA AQUÍ",
-        "icon": {
-            "src": "/images/iconos/bag-add-outline.png",
-            "alt": "",
-            "title": ""
-        }
+  "quote": {
+    "txt": "COTIZA AQUÍ",
+    "icon": {
+      "src": "/images/iconos/bag-add-outline.png",
+      "alt": "",
+      "title": ""
     }
+  },
+  "whatsapp": {
+    "icon": {
+      "src": "/images/iconos/whatsapp.png",
+      "alt": "",
+      "title": ""
+    },
+    "link": {
+      "url": "#",
+      "type": "a",
+      "blank": false
+    }
+  }
 }

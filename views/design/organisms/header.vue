@@ -51,15 +51,28 @@ if (targetObject)
           <ul class="flex gap-12 items-center justify-center">
             <li v-for="(item, i) in filteredData" :key="i">
               <MoleculesBtnDropdown v-if="item.submenu" :data="item" />
-              <AtomsButton v-else class="text-white font-[1.0625rem]" :data="item.link">
+              <AtomsButton v-else class="text-white text-[1.0625rem]" :data="item.link">
                 {{ item.txt }}
               </AtomsButton>
             </li>
           </ul>
         </nav>
-        <AtomsButton class="flex-none md:block hidden">
-          <MoleculesBtnIcon :data="btns.quote" />
-        </AtomsButton>
+        <div class="flex gap-4">
+          <div class="toggle">
+            <button class="lg:hidden flex" :@click="`toggle()`">
+              <mk-icon :v-if="`!state`" class="text-white text-[2rem]">
+                ic:round-menu
+              </mk-icon>
+              <mk-icon :v-if="`state`" class="text-white text-[2rem]">
+                ic:round-close
+              </mk-icon>
+            </button>
+            <molecules-mov-menu ::class="`{'active':state}`" />
+          </div>
+          <AtomsButton class="flex-none md:block hidden">
+            <MoleculesBtnIcon :data="btns.quote" />
+          </AtomsButton>
+        </div>
       </div>
     </div>
   </header>

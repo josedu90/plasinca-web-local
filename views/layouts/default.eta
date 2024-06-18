@@ -7,5 +7,6 @@
   <%~ it.body%>
 
   <%{vue%>
+    <molecules-btn-whatsapp />
     <organisms-footer />
   <% vue} %>
