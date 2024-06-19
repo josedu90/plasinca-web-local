@@ -22,6 +22,7 @@
     "nodemailer": "^6.7.8",
     "petite-vue": "^0.4.1",
     "pinia": "^2.0.11",
+    "rolly.js": "^0.4.0",
     "vee-validate": "^4.5.8",
     "vue": "^3.2.36"
   },

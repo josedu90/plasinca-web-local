@@ -1,0 +1,235 @@
+{
+  "size": "Medidas",
+  "company": [
+    {
+      "type": "text",
+      "id": "company",
+      "label": "Nombre de la empresa",
+      "error": "Nombre de la empresa",
+      "rules": "required"
+    },
+    {
+      "type": "text",
+      "id": "ruc",
+      "label": "RUC",
+      "error": "RUC",
+      "rules": "required"
+    },
+    {
+      "type": "text",
+      "id": "names",
+      "label": "Nombre y apellido de la persona a cargo",
+      "error": "Nombre y apellido",
+      "rules": "required"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico",
+      "error": "Correo electrónico",
+      "rules": "required|email"
+    },
+    {
+      "type": "tel",
+      "id": "phone",
+      "label": "TELÉFONO / CELULAR",
+      "error": "Teléfono/celular",
+      "rules": "required|min:10|numeric"
+    },
+    {
+      "type": "select",
+      "id": "use",
+      "label": "Uso",
+      "error": "Uso",
+      "rules": "required",
+      "options": [
+        { "label": "Funda" },
+        { "label": "Rollos" },
+        { "label": "Láminas Termoencogibles" },
+        { "label": "Láminados" },
+        { "label": "Coextruido" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "industry",
+      "label": "Industria",
+      "error": "Industria",
+      "rules": "required",
+      "options": [
+        { "label": "Camaronera" },
+        { "label": "Pesca" },
+        { "label": "Banano" },
+        { "label": "Alimentos" },
+        { "label": "Comercial" },
+        { "label": "Agrícola" },
+        { "label": "Construcción" },
+        { "label": "Aceites" },
+        { "label": "Limpieza" },
+        { "label": "De papel" }
+      ]
+    },
+    {
+      "type": "number",
+      "id": "colors",
+      "label": "¿A cuantos colores?",
+      "error": "Colores",
+      "rules": "required|"
+    },
+    {
+      "type": "number",
+      "id": "width",
+      "label": "Ancho",
+      "error": "Ancho",
+      "rules": "required"
+    },
+    {
+      "type": "number",
+      "id": "large",
+      "label": "Largo",
+      "error": "Largo",
+      "rules": "required"
+    },
+    {
+      "type": "number",
+      "id": "thickness",
+      "label": "Espesor",
+      "error": "Espesor",
+      "rules": "required"
+    },
+    {
+      "type": "number",
+      "id": "units",
+      "label": "Unidades a cotizar",
+      "error": "Unidades",
+      "rules": "required"
+    },
+    {
+      "type": "textarea",
+      "id": "message",
+      "label": "Comentarios adicionales",
+      "error": "Comentarios",
+      "rules": "none"
+    },
+    {
+      "type": "checkbox",
+      "id": "policy",
+      "label": "Acepto las <a href=\"#\">políticas de privacidad</a>",
+      "error": "Aceptar las políticas de privacidad",
+      "rules": "required"
+    }
+  ],
+  "personal": [
+    {
+      "type": "text",
+      "id": "names",
+      "label": "Nombres y apellidos",
+      "error": "Nombres y apellidos",
+      "rules": "required"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico",
+      "error": "Correo electrónico",
+      "rules": "required|email"
+    },
+    {
+      "type": "tel",
+      "id": "phone",
+      "label": "Teléfono/celular",
+      "error": "Teléfono/celular",
+      "rules": "required|min:10|numeric"
+    },
+    {
+      "type": "select",
+      "id": "use",
+      "label": "Uso",
+      "error": "Uso",
+      "rules": "required",
+      "options": [
+        { "label": "Funda" },
+        { "label": "Rollos" },
+        { "label": "Láminas Termoencogibles" },
+        { "label": "Láminados" },
+        { "label": "Coextruido" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "industry",
+      "label": "Industria",
+      "error": "Industria",
+      "rules": "required",
+      "options": [
+        { "label": "Camaronera" },
+        { "label": "Pesca" },
+        { "label": "Banano" },
+        { "label": "Alimentos" },
+        { "label": "Comercial" },
+        { "label": "Agrícola" },
+        { "label": "Construcción" },
+        { "label": "Aceites" },
+        { "label": "Limpieza" },
+        { "label": "De papel" }
+      ]
+    },
+    {
+      "type": "number",
+      "id": "colors",
+      "label": "¿A cuantos colores?",
+      "error": "Colores",
+      "rules": "required|"
+    },
+    {
+      "type": "number",
+      "id": "width",
+      "label": "Ancho",
+      "error": "Ancho",
+      "rules": "required"
+    },
+    {
+      "type": "number",
+      "id": "large",
+      "label": "Largo",
+      "error": "Largo",
+      "rules": "required"
+    },
+    {
+      "type": "number",
+      "id": "thickness",
+      "label": "Espesor",
+      "error": "Espesor",
+      "rules": "required"
+    },
+    {
+      "type": "number",
+      "id": "units",
+      "label": "Unidades a cotizar",
+      "error": "Unidades",
+      "rules": "required"
+    },
+    {
+      "type": "textarea",
+      "id": "message",
+      "label": "Comentarios adicionales",
+      "error": "Comentarios",
+      "rules": "none"
+    },
+    {
+      "type": "checkbox",
+      "id": "policy",
+      "label": "Acepto las <a href=\"#\">políticas de privacidad</a>",
+      "error": "Aceptar las políticas de privacidad",
+      "rules": "required"
+    }
+  ],
+  "btn": {
+    "txt": "Enviar Formulario",
+    "link": {
+      "url": "#",
+      "type": "btn",
+      "blank": false
+    }
+  }
+}

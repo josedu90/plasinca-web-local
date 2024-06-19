@@ -1,0 +1,27 @@
+{
+  "image": {
+    "src": "/images/shared/card.png",
+    "alt": "",
+    "title": ""
+  },
+  "pretitle": "Registra la información de tu pedido en nuestra empresa de plásticos en Guayaquil.",
+  "title": " ¡Pronto te contactaremos!",
+  "btns": [
+    {
+      "txt": "Persona Natural",
+      "icon": {
+        "src": "/images/iconos/accessibility.png",
+        "alt": "",
+        "title": ""
+      }
+    },
+    {
+      "txt": "Persona Jurídica",
+      "icon": {
+        "src": "/images/iconos/bag-remove.png",
+        "alt": "",
+        "title": ""
+      }
+    }
+  ]
+}

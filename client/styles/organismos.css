@@ -13,3 +13,14 @@
         }
     }
 }
+.cover{
+    &-a{
+        @apply bg-primary pt-16;
+        .title{
+            @apply text-secundary text-[2.813rem] font-bold leading-10 text-right max-w-[665px] mx-auto;
+        }
+        .txt{
+            @apply text-gray-400 text-[1.25rem] font-bold leading-6 text-right max-w-[665px] mx-auto mt-5;
+        }
+    }
+}

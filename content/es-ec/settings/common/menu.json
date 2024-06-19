@@ -1,54 +1,54 @@
 {
-    "items": [
-        {
-            "txt": "Nuestros productos",
-            "link": {
-                "url": "products",
-                "type": "mk",
-                "blank": false
-            },
-            "header": true,
-            "submenu": true
-        },
-        {
-            "txt": "Industrias",
-            "link": {
-                "url": "industrias",
-                "type": "mk",
-                "blank": false
-            },
-            "header": false,
-            "submenu": false
-        },
-        {
-            "txt": "Cliente",
-            "link": {
-                "url": "clients",
-                "type": "mk",
-                "blank": false
-            },
-            "header": true,
-            "submenu": false
-        },
-        {
-            "txt": "Somos",
-            "link": {
-                "url": "about",
-                "type": "mk",
-                "blank": false
-            },
-            "header": true,
-            "submenu": false
-        },
-        {
-            "txt": "Talento",
-            "link": {
-                "url": "talent",
-                "type": "mk",
-                "blank": false
-            },
-            "header": true,
-            "submenu": false
-        }
-    ]
+  "items": [
+    {
+      "txt": "Nuestros productos",
+      "link": {
+        "url": "products",
+        "type": "mk",
+        "blank": false
+      },
+      "header": true,
+      "submenu": true
+    },
+    {
+      "txt": "Industrias",
+      "link": {
+        "url": "industrias",
+        "type": "mk",
+        "blank": false
+      },
+      "header": false,
+      "submenu": false
+    },
+    {
+      "txt": "Cliente",
+      "link": {
+        "url": "clients",
+        "type": "mk",
+        "blank": false
+      },
+      "header": true,
+      "submenu": false
+    },
+    {
+      "txt": "Somos",
+      "link": {
+        "url": "about",
+        "type": "mk",
+        "blank": false
+      },
+      "header": true,
+      "submenu": false
+    },
+    {
+      "txt": "Talento",
+      "link": {
+        "url": "talent",
+        "type": "mk",
+        "blank": false
+      },
+      "header": true,
+      "submenu": false
+    }
+  ]
 }

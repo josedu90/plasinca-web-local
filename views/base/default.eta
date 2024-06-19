@@ -12,6 +12,7 @@
   <%vue}%>
   <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/rolly.js@0.2.0/css/style.css" />
 
   <%~ it?.getHeadScripts() %>
   <%~ it?.getHeadChunks() %>

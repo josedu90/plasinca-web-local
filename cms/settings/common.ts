@@ -128,6 +128,70 @@ export default defineCmsCollection({
               },
             },
           ),
+          testimonials: collections.file(
+            {
+              label: 'Testimonios',
+              fields: {
+                title: widgets.string({ label: 'Título' }),
+                items: widgets.list({
+                  label: 'Listado',
+                  fields: {
+                    image: widgets.image({ label: 'Imagen', required: true, ...media.shared, hint: 'Medidas: 619*484px' }),
+                    title: widgets.string({ label: 'Title', required: true }),
+                    txt: widgets.markdown({ label: 'Texto', required: true }),
+                  },
+                }),
+              },
+            },
+          ),
+          contact: collections.file(
+            {
+              label: 'Contactos',
+              fields: {
+                image: widgets.image({ label: 'Imagen', required: true, ...media.shared, hint: 'Medidas: 160*126px' }),
+                pretitle: widgets.string({ label: 'Pre-Título' }),
+                title: widgets.string({ label: 'Título' }),
+                btns: widgets.list({
+                  label: 'Botones',
+                  fields: {
+                    txt: widgets.markdown({ label: 'Texto', required: true }),
+                    image: widgets.image({ label: 'Imagen', required: true, ...media.iconos, hint: 'Medidas: 24*24px' }),
+                  },
+                }),
+              },
+            },
+          ),
+          forms: collections.file({
+            label: 'Formularios',
+            fields: {
+              company: widgets.list({
+                label: 'Campos del formulario empresa',
+                fields: {
+                  type: widgets.string({ label: 'Tipo', required: true }),
+                  id: widgets.string({ label: 'ID', required: true }),
+                  label: widgets.string({ label: 'Nombre', required: true }),
+                  error: widgets.string({ label: 'Error', required: true }),
+                  rules: widgets.string({ label: 'Reglas', required: true }),
+                },
+              }),
+              personal: widgets.list({
+                label: 'Campos del formulario persona',
+                fields: {
+                  type: widgets.string({ label: 'Tipo', required: true }),
+                  id: widgets.string({ label: 'ID', required: true }),
+                  label: widgets.string({ label: 'Nombre', required: true }),
+                  error: widgets.string({ label: 'Error', required: true }),
+                  rules: widgets.string({ label: 'Reglas', required: true }),
+                },
+              }),
+              btn: widgets.object({
+                label: 'Botón',
+                fields: {
+                  txt: widgets.string({ label: 'Texto', required: true }),
+                },
+              }),
+            },
+          }),
         },
       },
     );

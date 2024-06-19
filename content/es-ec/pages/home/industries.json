@@ -1,0 +1,85 @@
+{
+  "title": "Fabricamos una amplia gama de fundas y empaques plásticos en Ecuador para diferentes industrias.",
+  "items": [
+    {
+      "image": {
+        "src": "/images/industrias/camaronera.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "CAMARONERA"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/pesca.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "PESCA"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/banano.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "BANANO"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/alimentos.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "ALIMENTOS"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/comercial.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "COMERCIAL"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/agricola.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "AGRÍCOLA"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/construccion.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "CONSTRUCCIÓN"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/aceite.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "ACEITES"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/limpieza.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "LIMPIEZA"
+    },
+    {
+      "image": {
+        "src": "/images/industrias/papel.png",
+        "alt": "",
+        "title": ""
+      },
+      "txt": "DE PAPEL"
+    }
+  ]
+}

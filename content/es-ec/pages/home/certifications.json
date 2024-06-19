@@ -1,0 +1,28 @@
+{
+  "pretitle": "En 1994 iniciamos con una pequeña fábrica de fundas plásticas, que ha ido creciendo gracias a la calidad y diseño de empaques.",
+  "title": "Hoy, contamos con 3 décadas de experiencia, trabajando con tecnología de punta y personal altamente capacitado y orientado a la satisfacción del cliente.",
+  "subtitle": "¡Te invitamos a conocer las certificaciones que garantizan nuestro trabajo!",
+  "btn": {
+    "txt": "Conocer más",
+    "link": {
+      "url": "",
+      "type": "mk",
+      "blank": false
+    }
+  },
+  "flagleft": {
+    "src": "/images/home/flag-left.png",
+    "alt": "",
+    "title": ""
+  },
+  "flagright": {
+    "src": "/images/home/flag-right.png",
+    "alt": "",
+    "title": ""
+  },
+  "certifications": {
+    "src": "/images/home/certificaciones.png",
+    "alt": "",
+    "title": ""
+  }
+}
