@@ -45,6 +45,14 @@
         &:hover{
             @apply bg-secundary;
         }
+        &.flex-row-reverse{
+            img{
+                @apply ml-0 mr-5;
+            }
+        }
+        &.blue{
+            @apply !bg-primary text-white;
+        }
     }
     &-whatsapp{
         @apply fixed bottom-20 right-10 z-[100];
@@ -55,5 +63,22 @@
     @apply bg-primary/90 h-screen px-5 py-10 fixed top-[95px] left-[-100%] z-[100] w-full shadow-xl transition-all duration-[0.5s] ease-in-out lg:hidden block;
     &.active{
         @apply left-0;
+    }
+}
+
+.card{
+    &-product{
+        img{
+            @apply mx-auto -mb-16 z-20 relative;
+        }
+        .chip{
+            @apply rounded-[73px] bg-primary pt-20 pb-12 px-16 relative z-10;
+            .name{
+                @apply text-secundary text-[1.25rem] leading-6 text-center; 
+            }
+            button{
+                @apply absolute -bottom-[24px] left-[50%] -translate-x-[24px];
+            }
+        }
     }
 }

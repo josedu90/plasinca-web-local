@@ -50,7 +50,7 @@ if (targetObject)
         </li>
       </ul>
       <AtomsButton class="md:hidden block">
-        <MoleculesBtnIcon :data="btns.quote" />
+        <MoleculesBtnTxtIcon :data="btns.quote" />
       </AtomsButton>
     </nav>
   </div>

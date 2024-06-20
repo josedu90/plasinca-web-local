@@ -1,10 +1,12 @@
   <%layout(`base/${it.view?.base||'default'}`)%>
-
-    <%{vue%>
-      <organisms-header />
-    <% vue} %>
-    <%~ it.body%>
-    <%{vue%>
-      <molecules-btn-whatsapp />
-      <organisms-footer/>
-    <% vue} %>
+<div id="main">
+  <%{vue%>
+    <organisms-header />
+    <organisms-overlay-contact />
+  <% vue} %>
+  <%~ it.body%>
+  <%{vue%>
+    <molecules-btn-whatsapp />
+    <organisms-footer/>
+  <% vue} %>
+</div>

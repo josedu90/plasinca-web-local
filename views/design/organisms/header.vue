@@ -69,8 +69,8 @@ if (targetObject)
             </button>
             <molecules-mov-menu ::class="`{'active':state}`" />
           </div>
-          <AtomsButton class="flex-none md:block hidden">
-            <MoleculesBtnIcon :data="btns.quote" />
+          <AtomsButton class="flex-none md:block hidden open-dialog">
+            <MoleculesBtnTxtIcon :data="btns.quote" />
           </AtomsButton>
         </div>
       </div>
