@@ -1,9 +1,10 @@
 /* Moléculas */
 .btn{
+    @apply bg-primary rounded-[8px] text-white px-10 py-4 w-fit text-[1.25rem];
     &-dropdown{
         @apply min-w-[270px] w-full relative cursor-pointer;
         .btn{
-            @apply bg-gray-200 rounded-[5px] flex items-center justify-center px-[24px] py-[16px] w-full text-[1.0625rem] relative z-20 transition-all duration-[0.5s];
+            @apply bg-gray-200 text-black rounded-[5px] flex items-center justify-center px-[24px] py-[16px] w-full text-[1.0625rem] relative z-20 transition-all duration-[0.5s];
             &:hover{
                 @apply bg-gray-100;
             }

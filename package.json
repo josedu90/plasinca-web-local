@@ -19,9 +19,11 @@
     "dotenv": "^16.0.1",
     "element-plus": "^2.0.2",
     "flowbite": "^2.3.0",
+    "gsap": "^3.12.5",
     "nodemailer": "^6.7.8",
     "petite-vue": "^0.4.1",
     "pinia": "^2.0.11",
+    "rellax": "^1.12.1",
     "rolly.js": "^0.4.0",
     "vee-validate": "^4.5.8",
     "vue": "^3.2.36"

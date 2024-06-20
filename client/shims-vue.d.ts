@@ -7,3 +7,4 @@ declare let gtag: any;
 declare let dataLayer: any;
 declare let fbq: any;
 declare let lintrk: any;
+declare let Rellax: any;

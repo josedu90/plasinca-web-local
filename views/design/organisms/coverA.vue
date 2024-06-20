@@ -9,9 +9,9 @@ defineProps({
 <template>
   <section class="cover-a">
     <div class="container mx-auto">
-      <div class="flex justify-end app">
+      <div class="flex justify-end">
         <div class="w-3/12">
-          <mk-picture data-scene data-speed="0.2" e-width="309" e-height="309" class="mx-auto -mb-[270px] relative top-16 z-10" src="/images/home/dona1-cover.png" alt="" title="" />
+          <mk-picture data-rellax-speed="5" e-width="309" e-height="309" class="mx-auto -mb-[272px] relative top-10 z-10 rellax" src="/images/home/dona1-cover.png" alt="" title="" />
           <mk-picture e-width="229" e-height="512" class="mx-auto relative z-20" :src="data?.image.src" :alt="data?.image.alt" :title="data?.image.title" />
         </div>
         <div class="w-8/12">

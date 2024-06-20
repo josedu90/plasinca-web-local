@@ -10,13 +10,13 @@ const bind = {
 </script>
 
 <template>
-  <mk-link v-if="data?.type === 'mk'" :to="data?.url">
+  <mk-link v-if="data?.type === 'mk'" :to="data?.url" class="block w-fit">
     <slot />
   </mk-link>
-  <a v-else-if="data?.type === 'a'" :href="data?.url" v-bind="bind">
+  <a v-else-if="data?.type === 'a'" :href="data?.url" v-bind="bind" class="block w-fit">
     <slot />
   </a>
-  <button v-else>
+  <button v-else class="block w-fit">
     <slot />
   </button>
 </template>
