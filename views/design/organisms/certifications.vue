@@ -10,7 +10,7 @@ defineProps({
   <section class="certifications">
     <div class="container mx-auto relative">
       <mk-picture data-rellax-axis="x" data-rellax-speed="0.2" e-width="150" e-height="386" class="absolute bottom-0 -left-10 rellax" :src="data?.flagleft.src" :alt="data?.flagleft.alt" :title="data?.flagleft.title" />
-      <div class="w-6/12 mx-auto">
+      <div class="md:w-6/12 w-full mx-auto">
         <div class="pre-title relative" v-html="data?.pretitle" />
         <div class="title relative" v-html="data?.title" />
         <div class="pre-title relative" v-html="data?.subtitle" />

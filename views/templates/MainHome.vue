@@ -10,7 +10,6 @@ const {
 
 <template>
   <main class="overflow-x-hidden">
-    <MoleculesPersonForm></MoleculesPersonForm>
     <OrganismsCoverA :data="cover" />
     <OrganismsCertifications :data="certifications" />
     <OrganismsProducts :data="products" />

@@ -1,1 +1,13 @@
 /* Atomos */
+input, select, textarea{
+    @apply block !rounded-[10px] !border-gray-100 w-full;
+    &:focus{
+        --tw-ring-color: #C6C3C3 !important;
+    }
+    &[type="checkbox"]{
+        @apply mr-2 !rounded-[2px] text-primary;
+    }
+}
+label{
+    @apply text-[0.875rem];
+}

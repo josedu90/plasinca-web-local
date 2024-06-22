@@ -6,12 +6,12 @@ const { contact } = cms.$settings.common;
 <template>
   <section class="chip-contact">
     <div class="container mx-auto">
-      <div class="w-8/12 mx-auto chip">
+      <div class="lg:w-8/12 md:w-10/12 w-full mx-auto chip">
         <mk-picture e-width="160" e-height="126" class="relative mx-auto -top-16 -mb-10" :src="contact?.image.src" :alt="contact?.image.alt" :title="contact?.image.title" />
         <div class="pre-title" v-html="contact?.pretitle" />
         <div class="title" v-html="contact?.title" />
         <div class="flex flex-wrap gap-3 justify-center">
-          <AtomsButton v-for="(item, i) in contact.btns" :key="i">
+          <AtomsButton v-for="(item, i) in contact.btns" :key="i" :data-dialog-id="`dialog-overlay-${i + 2}`" class="open-dialog">
             <MoleculesBtnTxtIcon class="blue flex-row-reverse" :data="item" />
           </AtomsButton>
         </div>

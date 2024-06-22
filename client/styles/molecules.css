@@ -82,3 +82,9 @@
         }
     }
 }
+.form{
+    @apply rounded-[10px] overflow-y-scroll w-full max-w-[470px] max-h-[665px] px-10 py-10 bg-white;
+    &::-webkit-scrollbar{
+        @apply hidden;
+    }
+}

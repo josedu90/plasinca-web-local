@@ -74,7 +74,7 @@
       "id": "colors",
       "label": "¿A cuantos colores?",
       "error": "Colores",
-      "rules": "required|"
+      "rules": "required"
     },
     {
       "type": "number",
@@ -179,7 +179,7 @@
       "id": "colors",
       "label": "¿A cuantos colores?",
       "error": "Colores",
-      "rules": "required|"
+      "rules": "required"
     },
     {
       "type": "number",

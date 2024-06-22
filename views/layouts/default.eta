@@ -3,6 +3,8 @@
   <%{vue%>
     <organisms-header />
     <organisms-overlay-contact />
+    <OrganismsOverlayFormPerson />
+    <OrganismsOverlayFormCompany />
   <% vue} %>
   <%~ it.body%>
   <%{vue%>

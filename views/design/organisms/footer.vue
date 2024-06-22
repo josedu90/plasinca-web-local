@@ -52,7 +52,7 @@ const filteredData = menu.items.filter((item: { link: { url: string } }) => item
           </p>
         </div>
         <div class="flex lg:flex-nowrap flex-wrap justify-between items-strech">
-          <div class="w-3/12 flex flex-col justify-end lg:items-start items-center lg:mx-0 mx-auto lg:mt-0 mt-5 lg:order-1 order-2">
+          <div class="md:w-3/12 w-full flex flex-col justify-end lg:items-start items-center lg:mx-0 mx-auto lg:mt-0 mt-5 lg:order-1 order-2">
             <p class="text-white text-[1.25rem] mb-1">
               {{ networks.txt }}
             </p>

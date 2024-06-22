@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div id="dialog-overlay" class="overlay hidden">
-    <OrganismsChipContact class="!bg-transparent dialog" />
+  <div id="dialog-overlay-1" class="overlay dialog-overlay">
+    <OrganismsChipContact class="!bg-transparent" />
   </div>
 </template>

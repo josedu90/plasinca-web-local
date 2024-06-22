@@ -49,7 +49,7 @@ if (targetObject)
           </AtomsButton>
         </li>
       </ul>
-      <AtomsButton class="md:hidden block">
+      <AtomsButton class="md:hidden block open-dialog" data-dialog-id="dialog-overlay-1">
         <MoleculesBtnTxtIcon :data="btns.quote" />
       </AtomsButton>
     </nav>

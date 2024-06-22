@@ -7,7 +7,7 @@ const { testimonials } = cms.$settings.common;
   <section class="testimonials">
     <mk-picture data-rellax-axis="x" data-rellax-speed="0.22" e-width="646" e-height="646" class="absolute rellax z-10 top-5" src="/images/home/donaD.png" alt="" title="" />
     <div class="container mx-auto">
-      <div class="w-8/12 mx-auto relative z-20">
+      <div class="md:w-8/12 w-full mx-auto relative z-20">
         <div class="title" v-html="testimonials?.title" />
         <div class="carousel">
           <div class="carousel-inner">

@@ -7,6 +7,9 @@
   src: url("/fonts/FivoSans-Bold.otf") format("opentype");
 } */
 
+body{
+  @apply mt-[90px];
+}
 
 h1, h2, h3, h4, h5, h6{
   font-size: inherit;
