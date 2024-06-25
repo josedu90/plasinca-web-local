@@ -1,0 +1,299 @@
+{
+  "url": "fundas-naturales",
+  "seo": {
+    "title": "Fundas Naturales",
+    "description": "",
+    "keywords": "",
+    "imageSocial": {
+      "src": "/images/productos/fundas-impr-kellogs.png",
+      "alt": "",
+      "title": ""
+    },
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "image": {
+    "src": "/images/productos/fundas-impr-kellogs.png",
+    "alt": "",
+    "title": ""
+  },
+  "name": "Fundas Naturales o pigmentados (color)",
+  "txt": "Convierte a tus fundas naturales o pigmentadas en portavoces de tu marca con plásticos ecuatorianos de calidad en Plasinca.",
+  "options": [
+    {
+      "title": "Fundas tipo boutique sin imprimir y con impresión",
+      "txt": "Fundas para serigrafía con tratamiento corona.",
+
+      "image": {
+        "src": "/images/productos/fundas-bout-alby.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-bout-alby.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-bout-boutique.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-bout-claro.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-bout-guitig.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas tipo camiseta impresas y sin imprimir hasta 8 colores",
+      "txt": "Fundas usadas en los supermercados, restaurantes, fundas Dina, y Jumbo.",
+      "image": {
+        "src": "/images/productos/fundas-cami-krispy.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-cami-krispy.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-cami-santa-priscilla.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-cami-sin-impresion.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas para basura",
+      "txt": "Fundas para deshechos comunes, deshechos peligrosos (hospitalarios).",
+      "image": {
+        "src": "/images/productos/fundas-basu-ahorro.png",
+        "alt": "",
+        "title": ""
+      },
+
+      "slider": [
+        {
+          "src": "/images/productos/fundas-basu-ahorro.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-basu-mayik.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas perforadas",
+      "txt": "Fundas que permiten la salida de aire que queda atrapado dentro de la funda al sellar.",
+      "image": {
+        "src": "/images/productos/fundas-perforadas.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-perforadas.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas con wickets",
+      "txt": "Fundas o bolsas con wickets, que permiten la automatización e inocuidad del proceso de empaque y sellado.",
+      "image": {
+        "src": "/images/productos/fundas-wick-babys.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-wick-babys.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-wick-dados.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-wick-wikets.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas Pre-cortadas en rollo",
+      "txt": "Para colocar en dispensador y ayuda a que el proceso de empaque sea mas rápido y funcional.",
+      "image": {
+        "src": "/images/productos/fundas-preco-precortado.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-preco-precortado.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas para larvas",
+      "txt": "Para almacenar y transportar las larvas del cultivo de camarón.",
+      "image": {
+        "src": "/images/productos/fundas-larv-funda.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-larv-funda.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas quintaleras",
+      "txt": "Son fundas que albergan hasta 50 kg, puede ser de cacao o para uso avícola y ganadero.",
+      "image": {
+        "src": "/images/productos/fundas-quint-adm.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-quint-sal.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas para banano impresa y sin impresión",
+      "txt": "Lorem ipsum.",
+      "image": {
+        "src": "/images/productos/fundas-ban-banano.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-ban-banano.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-ban-cluster.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-ban-sal.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas impresas",
+      "txt": "Lorem ipsum.",
+      "image": {
+        "src": "/images/productos/fundas-impr-nappis.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-impr-crema.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-kellogs.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-nappis.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-nutri.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas impresas para alimentos",
+      "txt": "Lorem ipsum.",
+      "image": {
+        "src": "/images/productos/fundas-impr-ali-hamburguesa.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/fundas-impr-ali-ahorro.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-ali-arroz.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-ali-brocoli.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-ali-camarones.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-ali-chilenita.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-ali-hamburguesa.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/fundas-impr-ali-tahonera.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    }
+  ],
+  "contact": "<span>Resalta aún más tu marca con fundas naturales o pigmentadas.</span> Tus clientes notarán la diferencia y el cuidado en el detalle."
+}

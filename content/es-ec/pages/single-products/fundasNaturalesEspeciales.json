@@ -1,0 +1,168 @@
+{
+  "url": "fundas-naturales-especiales",
+  "seo": {
+    "title": "Fundas Naturales Esdpeciales",
+    "description": "",
+    "keywords": "",
+    "imageSocial": {
+      "src": "public/images/productos/especiales-funda-pollos.png",
+      "alt": "",
+      "title": ""
+    },
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "image": {
+    "src": "public/images/productos/especiales-funda-pollos.png",
+    "alt": "",
+    "title": ""
+  },
+  "name": "Productos Plásticos Especiales",
+  "txt": "¡PLASINCA un producto plástico ecuatoriano de calidad! Encuentra productos de plásticos especiales para obtener un empaquetado con aplicativos exclusivos para tu industria.",
+  "options": [
+    {
+      "title": "Mandiles",
+      "txt": "Generalmente son usados en los procesos de empaque, evitando contaminación de la vestimenta al producto.",
+      "image": {
+        "src": "/images/productos/especiales-mand-colores.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/especiales-mand-blanco.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/especiales-mand-colores.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/especiales-mand-delantal.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/especiales-mand-mandil.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Mangas para mandiles",
+      "txt": "Son las mangas para los mandiles que en su proceso de empaquetado lo requiera.",
+      "image": {
+        "src": "/images/productos/especiales-uso-mangas.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/especiales-mangas.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/especiales-uso-mangas.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Láminas separadoras",
+      "txt": "Se usan para separar los productos, evitando que se peguen entre sí. Uso frecuente: para discos de empanadas, para láminas de queso, para camarón, etc.",
+      "image": {
+        "src": "/images/productos/especiales-laminas-separadoras.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/especiales-laminas-naturales.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/especiales-laminas-separadoras.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Forros para cuadernos",
+      "txt": "Protege tus cuadernos con nuestros forros resistentes.",
+      "image": {
+        "src": "/images/productos/especiales-forros.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/especiales-forros.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas con 4 sellos",
+      "txt": "Tecnología de punta, para evitar que queden residuos de producto en las esquinas de la funda.",
+      "image": {
+        "src": "/images/productos/especiales-funda-sellos.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/especiales-funda-sellos.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Afiches publicitarios y Pasacalles",
+      "txt": "Para promocionar y comunicar de forma creativa con nuestros diseños de imágenes y textos que llamen la atención del público.",
+      "image": {
+        "src": "/images/productos/especiales-afiches-plastico.png ",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/especiales-afiches-plastico.png ",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/especiales-bobina.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Fundas para pollo",
+      "txt": "Lorem Ipsum",
+      "image": {
+        "src": "/images/productos/especiales-funda-pollos.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/especiales-funda-pollos.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    }
+  ],
+  "contact": "Fabricamos productos plásticos especiales con nuestro departamento de Desarrollo Técnico, <span>obteniendo empaques seguros y duraderos</span>."
+}

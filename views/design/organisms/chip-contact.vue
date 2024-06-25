@@ -7,7 +7,7 @@ const { contact } = cms.$settings.common;
   <section class="chip-contact">
     <div class="container mx-auto">
       <div class="lg:w-8/12 md:w-10/12 w-full mx-auto chip">
-        <mk-picture e-width="160" e-height="126" class="relative mx-auto -top-16 -mb-10" :src="contact?.image.src" :alt="contact?.image.alt" :title="contact?.image.title" />
+        <mk-picture e-width="160" e-height="126" class="levitation relative mx-auto -top-16 -mb-10" :src="contact?.image.src" :alt="contact?.image.alt" :title="contact?.image.title" />
         <div class="pre-title" v-html="contact?.pretitle" />
         <div class="title" v-html="contact?.title" />
         <div class="flex flex-wrap gap-3 justify-center">

@@ -11,6 +11,10 @@ export const media = {
     media_folder: '/public/images/iconos/',
     public_folder: '/images/iconos/',
   },
+  products: {
+    media_folder: '/public/images/products/',
+    public_folder: '/images/products/',
+  },
 };
 
 export const notNested = {

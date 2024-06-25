@@ -12,7 +12,7 @@ const {
   <main class="overflow-x-hidden">
     <OrganismsCoverA :data="cover" />
     <OrganismsCertifications :data="certifications" />
-    <OrganismsProducts :data="products" />
+    <OrganismsProductsCta :data="products" />
     <OrganismsIndustries :data="industries" />
     <OrganismsTestimonials class="relative z-10" />
     <OrganismsChipContact class="relative z-20" />

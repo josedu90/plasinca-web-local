@@ -1,0 +1,161 @@
+{
+  "url": "rollos-naturales",
+  "seo": {
+    "title": "Rollos Naturales",
+    "description": "",
+    "keywords": "",
+    "imageSocial": {
+      "src": "/images/productos/rollos-naturales-pigmentados.png",
+      "alt": "",
+      "title": ""
+    },
+    "google": true,
+    "twitter": true,
+    "facebook": true
+  },
+  "image": {
+    "src": "/images/productos/rollos-naturales-pigmentados.png",
+    "alt": "",
+    "title": ""
+  },
+  "name": "Rollos Naturales o pigmentados (color)",
+  "txt": "Te ofrecemos una amplia gama de plásticos ecuatorianos en rollos naturales o pigmentados para personalizar tus empaques plásticos.",
+  "options": [
+    {
+      "title": "Termoencogibles sin impresión o impresos hasta 8 colores",
+      "txt": "Es un lámina que permite que varios productos se compacten en diferentes formas, facilita el almacenamiento y alta resistencia a su manipulación para transoprtar. Uso con mayor frecuencia: Embotelladoras, productos promocionales, etc.",
+      "image": {
+        "src": "/images/productos/rollos-termo-guitig.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/rollos-termo-botellas.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-termo-guitig.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-termo-impresion.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-termo-lamina.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Envasado Autom. sin y con impresión hasta 8 colores",
+      "txt": "Es una lámina que sirve para las máquinas envasadoras y cuentan con un excelente sellado para productos como polvos, líquidos y viscosos.",
+      "image": {
+        "src": "/images/productos/rollos-env-auto-ales.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/rollos-env-auto-ales.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-env-auto-arroz.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-env-auto-brocoli.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-env-auto-brocoli-rollos.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-env-auto-manteca.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-env-auto-quaker.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-env-auto-servilletas.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-env-auto-sika.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Tubulares sin impresión",
+      "txt": "Esta presentación es la más adecuada para confeccionar bolsas de todo tipo en múltiples anchos. Uso frecuente para la Industria Textil.",
+      "image": {
+        "src": "/images/productos/rollos-tub-impresion.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/rollos-tub-impresion.png",
+          "alt": "",
+          "title": ""
+        },
+        {
+          "src": "/images/productos/rollos-tub-rollo.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Rollos Perforados",
+      "txt": "Es una lámina que lleva perforaciones con el fin de que exista salida de aire y no se quede atrapado dentro de la funda.",
+      "image": {
+        "src": "/images/productos/rollos-perf-perforado.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/rollos-perf-perforado.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    },
+    {
+      "title": "Rollos Fardos",
+      "txt": "Es un empaque secundario que tiene un lado interior deslizante y su lado exterior antideslizante que sirve para apilamiento.",
+      "image": {
+        "src": "/images/productos/rollos-perf-perforado.png",
+        "alt": "",
+        "title": ""
+      },
+      "slider": [
+        {
+          "src": "/images/productos/rollos-perf-perforado.png",
+          "alt": "",
+          "title": ""
+        }
+      ]
+    }
+  ],
+  "contact": "<span>Haz que tu marca se conozca en todo el mundo de la forma correcta.</span> Imprime tu marca y personaliza tus fundas y empaques plásticos."
+}

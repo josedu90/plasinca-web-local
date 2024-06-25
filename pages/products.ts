@@ -1,14 +1,14 @@
 export default definePage({
-  name: 'home',
+  name: 'products',
   view: {
-    bundle: 'home',
-    template: 'MainHome',
+    bundle: 'products',
+    template: 'MainProducts',
   },
   locales: {
     'es-ec': {
-      url: '/',
+      url: '/products',
       seo: async ({ locale }) => {
-        const seo = await queryContent(`${locale.code}/pages/home/seo`).fetch();
+        const seo = await queryContent(`${locale.code}/pages/products/seo`).fetch();
         return {
           ...seo,
           twitterSite: '',

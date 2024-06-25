@@ -1,5 +1,5 @@
 import { notNested } from '../__shared';
-import { linkOrButton, media } from './__shared';
+import { linkOrButton, media, seoFields } from './__shared';
 
 export default defineCmsCollection({
   dir: 'home',
@@ -10,6 +10,10 @@ export default defineCmsCollection({
   },
   setup({ widgets, collections }) {
     const files = {
+      seo: collections.file({
+        label: 'Metadatos',
+        fields: seoFields(widgets),
+      }),
       cover: collections.file({
         label: 'Cover',
         fields: {

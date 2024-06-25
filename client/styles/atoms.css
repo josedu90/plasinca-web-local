@@ -11,3 +11,22 @@ input, select, textarea{
 label{
     @apply text-[0.875rem];
 }
+
+/* animaciones */
+
+/* Custom keyframes for ghost-like levitation effect */
+/* Custom keyframes for levitation effect */
+@keyframes levitate {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Custom classes for levitation effect */
+  .levitation {
+    @apply transition-transform duration-300 ease-in-out transform;
+    animation: levitate 2s ease-in-out infinite;
+  }
