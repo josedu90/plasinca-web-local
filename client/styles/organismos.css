@@ -32,6 +32,15 @@
             }
         }
     }
+    &-c{
+        @apply bg-primary border-primary rounded-b-[110px] mb-40;
+        .txt{
+            @apply text-white text-[2.25rem] leading-9 font-light max-w-[533px] relative;
+        }
+        .image{
+            @apply relative top-16;
+        }
+    }
 }
 
 .certifications{
@@ -130,6 +139,15 @@
             .title{
                 @apply text-[1.5rem] leading-6 text-center my-5;
             } 
+        }
+        &-dona{
+            @apply overflow-hidden;
+            .txt{
+                @apply text-center text-primary font-light text-[2.25rem] leading-8 max-w-[708px] mx-auto mt-20;
+                span{
+                    @apply font-bold;
+                }
+            }
         }
     }
 }

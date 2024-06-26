@@ -5,7 +5,7 @@
     "description": "",
     "keywords": "",
     "imageSocial": {
-      "src": "/images/productos/rollos-naturales-pigmentados.png",
+      "src": "/images/productos/rollos-termo-impresion.png",
       "alt": "",
       "title": ""
     },
@@ -14,7 +14,7 @@
     "facebook": true
   },
   "image": {
-    "src": "/images/productos/rollos-naturales-pigmentados.png",
+    "src": "/images/productos/rollos-termo-impresion.png",
     "alt": "",
     "title": ""
   },
@@ -31,24 +31,32 @@
       },
       "slider": [
         {
-          "src": "/images/productos/rollos-termo-botellas.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-termo-botellas.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-termo-guitig.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-termo-guitig.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-termo-impresion.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-termo-impresion.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-termo-lamina.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-termo-lamina.png",
+            "alt": "",
+            "title": ""
+          }
         }
       ]
     },
@@ -62,44 +70,60 @@
       },
       "slider": [
         {
-          "src": "/images/productos/rollos-env-auto-ales.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-ales.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-env-auto-arroz.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-arroz.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-env-auto-brocoli.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-brocoli.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-env-auto-brocoli-rollos.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-brocoli-rollos.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-env-auto-manteca.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-manteca.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-env-auto-quaker.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-quaker.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-env-auto-servilletas.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-servilletas.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-env-auto-sika.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-env-auto-sika.png",
+            "alt": "",
+            "title": ""
+          }
         }
       ]
     },
@@ -113,14 +137,18 @@
       },
       "slider": [
         {
-          "src": "/images/productos/rollos-tub-impresion.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-tub-impresion.png",
+            "alt": "",
+            "title": ""
+          }
         },
         {
-          "src": "/images/productos/rollos-tub-rollo.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-tub-rollo.png",
+            "alt": "",
+            "title": ""
+          }
         }
       ]
     },
@@ -134,9 +162,11 @@
       },
       "slider": [
         {
-          "src": "/images/productos/rollos-perf-perforado.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-perf-perforado.png",
+            "alt": "",
+            "title": ""
+          }
         }
       ]
     },
@@ -144,15 +174,17 @@
       "title": "Rollos Fardos",
       "txt": "Es un empaque secundario que tiene un lado interior deslizante y su lado exterior antideslizante que sirve para apilamiento.",
       "image": {
-        "src": "/images/productos/rollos-perf-perforado.png",
+        "src": "/images/productos/rollos-fard-impreso.png",
         "alt": "",
         "title": ""
       },
       "slider": [
         {
-          "src": "/images/productos/rollos-perf-perforado.png",
-          "alt": "",
-          "title": ""
+          "image": {
+            "src": "/images/productos/rollos-fard-impreso.png",
+            "alt": "",
+            "title": ""
+          }
         }
       ]
     }

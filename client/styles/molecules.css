@@ -81,6 +81,18 @@
             }
         }
     }
+    &-subproduct{
+        @apply bg-gray-100 rounded-[28px] p-4 text-center h-full flex flex-col justify-between;
+        .title{
+            @apply text-[1.25rem] leading-5 my-5;
+        }
+        img{
+            @apply mx-auto;
+        }
+        button{
+            @apply mx-auto block;
+        }
+    }
 }
 .form{
     @apply rounded-[10px] overflow-y-scroll w-full max-w-[470px] max-h-[665px] px-10 py-10 bg-white;
