@@ -60,7 +60,7 @@
 }
 
 .mov-menu{
-    @apply bg-primary/90 h-screen px-5 py-10 fixed top-[95px] left-[-100%] z-[100] w-full shadow-xl transition-all duration-[0.5s] ease-in-out lg:hidden block;
+    @apply bg-primary/90 h-[calc(100vh-95px)] overflow-y-auto px-5 py-10 fixed top-[95px] left-[-100%] z-[100] w-full shadow-xl transition-all duration-[0.5s] ease-in-out lg:hidden block;
     &.active{
         @apply left-0;
     }
@@ -76,7 +76,7 @@
             .name{
                 @apply text-secundary text-[1.25rem] leading-6 text-center; 
             }
-            button{
+            button,a{
                 @apply absolute -bottom-[24px] left-[50%] -translate-x-[24px];
             }
         }

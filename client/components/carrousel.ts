@@ -1,41 +1,46 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const carouselInner = document.querySelector('.carousel-inner');
-  const slides = document.querySelectorAll('.carousel-item');
-  const logos = document.querySelectorAll('.brand-logos div');
-  let currentIndex = 0;
-  const totalSlides = slides.length;
-  const intervalTime = 5000; // 5 segundos
+  const carousels = document.querySelectorAll('.carousel');
 
-  // Función para actualizar la posición del carrusel
-  function updateCarousel() {
-    carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
-    logos.forEach((logo, index) => {
-      if (index === currentIndex)
-        logo.classList.add('active');
-      else
-        logo.classList.remove('active');
-    });
-  }
+  carousels.forEach((carousel) => {
+    const carouselInner = carousel.querySelector('.carousel-inner');
+    const slides = carousel.querySelectorAll('.carousel-item');
+    const logos = carousel.querySelectorAll('.brand-logos div');
+    let currentIndex = 0;
+    const totalSlides = slides.length;
+    const intervalTime = parseInt(carousel.getAttribute('data-interval')) || 5000;
 
-  // Función para avanzar al siguiente slide
-  function nextSlide() {
-    currentIndex = (currentIndex + 1) % totalSlides;
-    updateCarousel();
-  }
+    // Function to update carousel position
+    function updateCarousel() {
+      carouselInner.style.transform = `translateX(-${currentIndex * 100}%)`;
+      logos.forEach((logo, index) => {
+        if (index === currentIndex)
+          logo.classList.add('active');
+        else
+          logo.classList.remove('active');
+      });
+    }
 
-  // Auto avance del carrusel
-  let autoSlide = setInterval(nextSlide, intervalTime);
-
-  // Control de los logos
-  logos.forEach((logo, index) => {
-    logo.addEventListener('click', () => {
-      clearInterval(autoSlide); // Detener el auto avance
-      currentIndex = index;
+    // Function to advance to the next slide
+    function nextSlide() {
+      currentIndex = (currentIndex + 1) % totalSlides;
       updateCarousel();
-      autoSlide = setInterval(nextSlide, intervalTime); // Reiniciar el auto avance
-    });
-  });
+    }
 
-  // Iniciar la primera actualización
-  updateCarousel();
+    // Auto advance the carousel
+    let autoSlide = setInterval(nextSlide, intervalTime);
+
+    // Logo control
+    logos.forEach((logo) => {
+      const index = parseInt(logo.getAttribute('data-index'));
+      logo.addEventListener('click', () => {
+        clearInterval(autoSlide); // Stop auto advance
+        currentIndex = index;
+        updateCarousel();
+        autoSlide = setInterval(nextSlide, intervalTime); // Restart auto advance
+      });
+    });
+
+    // Initialize the first update
+    updateCarousel();
+  });
 });

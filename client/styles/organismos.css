@@ -33,9 +33,9 @@
         }
     }
     &-c{
-        @apply bg-primary border-primary rounded-b-[110px] mb-40;
+        @apply bg-primary border-primary rounded-b-[110px] mb-40 lg:py-0 py-10;
         .txt{
-            @apply text-white text-[2.25rem] leading-9 font-light max-w-[533px] relative;
+            @apply text-white text-[2.25rem] leading-9 font-light lg:max-w-[533px] relative;
         }
         .image{
             @apply relative top-16;
@@ -117,7 +117,7 @@
     }
     .brand-logos {
         div{
-            @apply md:bg-white bg-gray-600 rounded-[20px] p-2 flex items-center justify-center;
+            @apply md:bg-white bg-gray-600 rounded-[20px] p-2 flex items-center justify-center cursor-pointer;
             &.active{
                 @apply bg-primary;
                 img{
@@ -132,9 +132,9 @@
     &-contact{
         @apply bg-gray-200 py-20 w-full;
         .chip{
-            @apply bg-gradient-to-b from-orange-100 to-secundary md:rounded-[206px] rounded-[20px] pb-10;
+            @apply bg-gradient-to-b from-orange-100 to-secundary md:rounded-[206px] rounded-[20px] pb-10 px-5;
             .pre-title{
-                @apply text-[1.5rem] leading-6 text-center font-light max-w-[50%] mx-auto;
+                @apply text-[1.5rem] leading-6 text-center font-light md:max-w-[50%] mx-auto;
             }
             .title{
                 @apply text-[1.5rem] leading-6 text-center my-5;
@@ -143,7 +143,7 @@
         &-dona{
             @apply overflow-hidden;
             .txt{
-                @apply text-center text-primary font-light text-[2.25rem] leading-8 max-w-[708px] mx-auto mt-20;
+                @apply text-center text-primary font-light text-[2.25rem] leading-8 max-w-[708px] mx-auto mt-20 px-5;
                 span{
                     @apply font-bold;
                 }
@@ -153,14 +153,57 @@
 }
 
 .overlay{
-    @apply fixed w-full h-screen bg-black/50 z-[101] top-0 left-0 justify-center items-center top-[-100%] flex opacity-0 transition-all duration-[0.5s];
+    @apply fixed w-full h-screen bg-black/50 -z-[1] top-0 left-0 justify-center items-center top-[-100%] flex opacity-0 transition-all duration-[0.5s];
     section{
         @apply opacity-0 translate-y-[-80px] transition-all duration-[0.5s]; 
     }
     &.active{
-        @apply top-0 opacity-100;
+        @apply top-0 opacity-100 z-[101];
         section{
             @apply opacity-100 translate-y-[0px] delay-[0.5s];
         }
     }
+}
+
+.subproduct-slider{
+    @apply absolute p-9 bg-primary max-w-[1128px] opacity-0 transition-all duration-[0s] overflow-y-auto max-h-[95vh];
+    &.active-card{
+        @apply relative delay-[0.5s] opacity-100 duration-[0.5s];
+    }
+    .info{
+        .title{
+            @apply text-[2.813rem] leading-8 font-bold mb-5 text-white;
+        }
+        .txt{
+            @apply text-[1.25rem] leading-5 text-white md:mb-0 mb-5;
+        }
+    }
+    .carousel {
+        @apply relative overflow-hidden bg-gradient-to-b from-white to-gray-100 rounded-[20px] py-10;
+        .carousel-inner {
+            @apply flex transition-transform duration-[0.5s] ease-in-out;
+            .top{
+                @apply text-[1.5rem] leading-6 text-center;
+            }
+            img{
+                @apply mx-auto my-8;
+            }
+            .txt{
+                @apply text-[1.25rem] leading-5 text-center mb-10;
+            }
+            .carousel-item {
+                @apply min-w-full box-border;
+            }
+        }
+        .brand-logos {
+            @apply flex gap-2 justify-center mt-5;
+            div{
+                @apply bg-gray-400 w-[40px] h-[4px] cursor-pointer;
+                &.active{
+                    @apply bg-primary;
+                }
+            }
+        }
+    }
+    
 }

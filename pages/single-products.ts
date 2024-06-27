@@ -1,7 +1,7 @@
 export default defineDynamicPage({
   name: 'single-products',
   view: {
-    bundle: 'products',
+    bundle: 'singleProducts',
     template: 'SingleProducts',
   },
   locales: {

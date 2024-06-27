@@ -19,10 +19,10 @@ const { testimonials } = cms.$settings.common;
               <div class="txt" v-html="item.txt" />
             </div>
           </div>
-        </div>
-        <div class="brand-logos">
-          <div v-for="(item, i) in testimonials?.items" :key="i" :data-index="i">
-            <mk-picture e-width="139" e-height="100" :src="item.image.src" :alt="item.image.alt" :title="item.image.title" />
+          <div class="brand-logos">
+            <div v-for="(item, i) in testimonials?.items" :key="i" :data-index="i">
+              <mk-picture e-width="139" e-height="100" :src="item.image.src" :alt="item.image.alt" :title="item.image.title" />
+            </div>
           </div>
         </div>
       </div>
