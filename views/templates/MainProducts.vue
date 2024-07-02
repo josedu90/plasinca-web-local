@@ -7,7 +7,7 @@ const {
 </script>
 
 <template>
-  <main class="overflow-x-hidden">
+  <main>
     <OrganismsCoverB :data="cover" class="!pb-40" />
     <div class="bg-white rounded-t-[110px] -mt-[110px] relative overflow-hidden">
       <OrganismsProducts :data="products" />

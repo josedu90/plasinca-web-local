@@ -14,7 +14,7 @@ defineProps({
         <div class="pre-title relative" v-html="data?.pretitle" />
         <div class="title relative" v-html="data?.title" />
         <div class="pre-title relative" v-html="data?.subtitle" />
-        <AtomsButton :data="data?.btn.link" class="mx-auto my-12">
+        <AtomsButton :data="data?.btn.link" class="mx-auto w-fit my-12">
           <MoleculesBtn :data="data?.btn" />
         </AtomsButton>
         <mk-picture e-width="351" e-height="89" :src="data?.certifications.src" :alt="data?.certifications.alt" :title="data?.certifications.title" />

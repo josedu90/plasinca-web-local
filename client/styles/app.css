@@ -7,6 +7,10 @@
   src: url("/fonts/FivoSans-Bold.otf") format("opentype");
 } */
 
+html, body {
+  overflow-x: hidden;
+}
+
 body{
   @apply mt-[90px];
 }

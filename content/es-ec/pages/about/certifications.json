@@ -1,0 +1,16 @@
+{
+  "txt": "Te invitamos a conocer nuestras certificaciones, símbolos de un trabajo en equipo y excelencia en servicio técnico y personalizado como fabricantes de plásticos en Ecuador.",
+  "image": {
+    "src": "/images/about/certificaciones.png",
+    "alt": "",
+    "title": ""
+  },
+  "btn": {
+    "txt": "Conoce más",
+    "link": {
+      "url": "https://www.sgs.com/en/certified-clients-and-products/certified-client-directory",
+      "type": "a",
+      "blank": true
+    }
+  }
+}

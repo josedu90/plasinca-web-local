@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "icon": {
+        "src": "/images/about/politicasSIG.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Política S.I.G.",
+      "btn": {
+        "txt": "Descargar",
+        "link": {
+          "url": "#",
+          "type": "a",
+          "blank": true
+        }
+      }
+    },
+    {
+      "icon": {
+        "src": "/images/about/desarrollo-sostenible.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Política del Objetivo de Desarrollo Sostenible",
+      "btn": {
+        "txt": "Descargar",
+        "link": {
+          "url": "#",
+          "type": "a",
+          "blank": true
+        }
+      }
+    },
+    {
+      "icon": {
+        "src": "/images/about/responsabilidad-social.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Política Responsabilidad Social",
+      "btn": {
+        "txt": "Descargar",
+        "link": {
+          "url": "#",
+          "type": "a",
+          "blank": true
+        }
+      }
+    },
+    {
+      "icon": {
+        "src": "/images/about/licencia-ambiental.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Licencia Ambiental",
+      "btn": {
+        "txt": "Descargar",
+        "link": {
+          "url": "#",
+          "type": "a",
+          "blank": true
+        }
+      }
+    }
+  ]
+}

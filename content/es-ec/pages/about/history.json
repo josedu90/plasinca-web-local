@@ -1,0 +1,33 @@
+{
+  "title": "Conoce nuestra<br>historia",
+  "items": [
+    {
+      "year": "1994",
+      "txt": "El Ing. Marcelo Castillo funda la compañía, empezando con una máquina selladora en un pequeño taller para abastecer al mercado local en Guayaquil, Ecuador."
+    },
+    {
+      "year": "1998",
+      "txt": "Fabricamos empaques flexibles de alta calidad para diferentes usos. Con variedad de productos plásticos y servicios."
+    },
+    {
+      "year": "2000",
+      "txt": "Plásticos Internacionales agranda sus líneas de producción entrando a nuevos mercados, entre ellos los de productos impresos. Gracias a su capacidad, calidad y competitividad logra destacarse positivamente en la industria ecuatoriana de su sector."
+    },
+    {
+      "year": "2014",
+      "txt": "Plásticos Internacionales se afianza en el mercado ecuatoriano siendo referente de calidad en sus productos y servicios. Se convierte en la primera empresa de empaques flexibles en obtener la certificación FSSC 22000 de seguridad alimentaria."
+    },
+    {
+      "year": "2018",
+      "txt": "¿Qué tan importante sería esto? ¿Hay quizás otro hito relevante o consecuencia importante de la compra de dicha impresora?"
+    },
+    {
+      "year": "2020",
+      "txt": "Gracias a la consolidación de Plasinca en el mercado, la capacidad productiva llega a su tope en este periodo. La empresa decide aumentar en un 40% su producción, renovando y adquiriendo nuevas maquinarias."
+    },
+    {
+      "year": "2024",
+      "txt": "Comienza el proyecto de ampliación de planta y aumento de capacidad productiva."
+    }
+  ]
+}

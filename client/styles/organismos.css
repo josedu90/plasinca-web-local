@@ -41,6 +41,17 @@
             @apply relative top-16;
         }
     }
+    &-d{
+        .head{
+            @apply bg-primary border-primary rounded-b-[110px] pt-12 md:mb-[250px] mb-5 md:max-h-[250px];
+            .title{
+                @apply text-secundary text-[4rem] leading-[4rem] font-light pt-10 xl:pb-[12rem] lg:pb-32 pb-20;
+            }
+            .txt{
+                @apply text-[1.5rem] leading-[1] font-medium md:text-dark-100 text-white;
+            }
+        }
+    }
 }
 
 .certifications{
@@ -87,7 +98,7 @@
 }
 
 .testimonials{
-    @apply relative py-20 bg-gray-200;
+    @apply relative py-20 bg-gray-200 overflow-y-hidden;
     .title{
         @apply text-[2.25rem] leading-8 text-center font-bold mb-10 text-primary;
     }
@@ -206,4 +217,11 @@
         }
     }
     
+}
+
+.timeline{
+    @apply py-20;
+    .title{
+        @apply text-[2.813rem] leading-10 text-primary font-bold; 
+    }
 }

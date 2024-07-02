@@ -9,7 +9,7 @@ const {
 </script>
 
 <template>
-  <main class="overflow-x-hidden">
+  <main>
     <OrganismsCoverA :data="cover" />
     <OrganismsCertifications :data="certifications" />
     <OrganismsProductsCta :data="products" />

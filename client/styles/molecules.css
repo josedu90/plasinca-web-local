@@ -93,10 +93,50 @@
             @apply mx-auto block;
         }
     }
+    &-download{
+        @apply bg-orange-100 rounded-[8px] text-center p-5 flex flex-col justify-between min-h-[307px];
+        .title{
+            @apply text-[1.5rem] text-primary leading-5;
+        }
+        img{
+            @apply mx-auto;
+        }
+        button, .btn{
+            @apply w-full;
+        }
+    }
 }
 .form{
     @apply rounded-[10px] overflow-y-scroll w-full max-w-[470px] max-h-[665px] px-10 py-10 bg-white;
     &::-webkit-scrollbar{
         @apply hidden;
+    }
+}
+.date{
+    .square{
+        @apply bg-primary rounded-[8px] min-w-[108px] max-h-[108px] min-h-[108px] text-center py-2 flex flex-col justify-center;
+        img{
+            @apply mx-auto;
+        }
+        .year{
+            @apply text-[2.25rem] leading-10 text-white font-light flex-none;
+        }
+    }
+    .txt{
+        @apply text-[1.063rem] leading-[1] ml-5;
+    }
+}
+.chip{
+    &-certification{
+        @apply bg-gray-200 md:rounded-[206px] rounded-lg xl:px-[206px] md:px-[100px] px-8 py-8;
+        .txt{
+            @apply text-[1.5rem] leading-[1] ml-5 font-light text-center;
+        }
+        img{
+            @apply mx-auto my-5;
+        }
+        .btn{
+            @apply mx-auto;
+        }
     }
 }

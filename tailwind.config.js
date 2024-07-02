@@ -68,7 +68,7 @@ module.exports = {
             'font-family': 'Latinotype',
             'font-style': 'medium',
             'font-weight': 500,
-            'src': 'url(\'/fonts/latinotype-texta-book.ttf\') format(\'truetype\')',
+            'src': 'url(\'/fonts/TextaMedium.ttf\') format(\'truetype\')',
           },
           {
             'font-family': 'Latinotype',
