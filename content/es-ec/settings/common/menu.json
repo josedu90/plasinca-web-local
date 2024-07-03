@@ -49,6 +49,16 @@
       },
       "header": true,
       "submenu": false
+    },
+    {
+      "txt": "Proveedores",
+      "link": {
+        "url": "suppliers",
+        "type": "mk",
+        "blank": false
+      },
+      "header": false,
+      "submenu": false
     }
   ]
 }

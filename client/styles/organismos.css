@@ -45,7 +45,7 @@
         .head{
             @apply bg-primary border-primary rounded-b-[110px] pt-12 md:mb-[250px] mb-5 md:max-h-[250px];
             .title{
-                @apply text-secundary text-[4rem] leading-[4rem] font-light pt-10 xl:pb-[12rem] lg:pb-32 pb-20;
+                @apply text-secundary text-[4rem] leading-[4rem] font-light pt-10 xl:pb-[12rem] md:pb-32 pb-20;
             }
             .txt{
                 @apply text-[1.5rem] leading-[1] font-medium md:text-dark-100 text-white;
@@ -246,5 +246,15 @@
         .form{
             @apply bg-gray-200;
         }
+    }
+}
+
+.location{
+    @apply py-20;
+    .title{
+        @apply text-primary text-[4rem] leading-[4rem] font-light text-center;
+    }
+    .txt{
+        @apply text-dark-100 text-[1.5rem] leading-6 font-medium text-center md:w-6/12 mx-auto my-16;
     }
 }

@@ -12,9 +12,9 @@
     {
       "type": "tel",
       "id": "phone",
-      "label": "Teléfono",
-      "error": "Teléfonos",
-      "rules": "required"
+      "label": "TELÉFONO / CELULAR",
+      "error": "Teléfono/celular",
+      "rules": "required|min:10|numeric"
     },
     {
       "type": "email",
@@ -22,13 +22,6 @@
       "label": "Correo electrónico",
       "error": "Correo electrónico",
       "rules": "required|email"
-    },
-    {
-      "type": "tel",
-      "id": "phone",
-      "label": "TELÉFONO / CELULAR",
-      "error": "Teléfono/celular",
-      "rules": "required|min:10|numeric"
     },
     {
       "type": "select",
@@ -46,13 +39,16 @@
         { "label": "Extrusión" },
         { "label": "Sellado" },
         { "label": "Impresión" },
-        { "label": "Corte / Rebobinado" }
+        { "label": "Corte / Rebobinado" },
+        { "label": "Mantenimiento" },
+        { "label": "Calidad" },
+        { "label": "Logística" }
       ]
     },
     {
       "type": "file",
       "id": "cv",
-      "label": "Adjuntar tu CV en pdf.",
+      "label": "Adjunta tu CV en pdf.",
       "error": "CV",
       "rules": "required"
     },

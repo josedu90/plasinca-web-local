@@ -81,8 +81,8 @@ const filteredData = menu.items.filter((item: { link: { url: string } }) => item
             </div>
             <div class="md:grow w-full md:text-left text-center flex flex-col justify-between">
               <nav>
-                <ul class="flex justify-between md:my-0 my-2">
-                  <li v-for="(item, i) in filteredData" :key="i" class="top">
+                <ul class="flex flex-wrap md:justify-between justify-center md:my-0 my-2">
+                  <li v-for="(item, i) in filteredData" :key="i" class="top px-3">
                     <AtomsButton :data="item.link">
                       {{ item.txt }}
                     </AtomsButton>

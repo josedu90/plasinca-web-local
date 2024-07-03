@@ -118,4 +118,8 @@ setTimeout(() => {
     const form3 = createSingleForm();
     form3.mount('#the-talent');
   }
+  if (document.getElementById('the-suppliers')) {
+    const form4 = createSingleForm();
+    form4.mount('#the-suppliers');
+  }
 }, 30);

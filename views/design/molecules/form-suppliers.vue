@@ -9,7 +9,8 @@ defineProps({
 <template>
   <section class="form !max-h-fit !overflow-visible">
     <div class="container mx-auto">
-      <form id="the-talent" :v-scope="'SendForm()'" :[`@submit.prevent`]="'sendForm'">
+      <div v-if="data?.title" class="title" v-html="data?.title" />
+      <form id="the-suppliers" :v-scope="'SendForm()'" :[`@submit.prevent`]="'sendForm'">
         <template v-for="(item, i) in data?.form" :key="i">
           <fieldset v-if="item.type === 'text' || item.type === 'number' || item.type === 'file' || item.type === 'tel' || item.type === 'email'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
             <label :for="item.id">{{ item.label }}</label>

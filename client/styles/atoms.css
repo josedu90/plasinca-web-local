@@ -9,7 +9,10 @@ input, select, textarea{
     }
 }
 label{
-    @apply text-[0.875rem];
+    @apply text-[0.875rem] ml-5;
+}
+label[for="policy"]{
+  @apply ml-0;
 }
 input[type="file"]{
   @apply mt-1;

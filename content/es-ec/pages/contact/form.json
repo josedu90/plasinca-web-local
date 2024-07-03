@@ -1,0 +1,41 @@
+{
+  "title": "Deja tus comentarios en nuestro buzón de sugerencias, solo así podremos seguir mejorando.",
+  "form": [
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre y Apellidos",
+      "error": "Nombre y Apellidos",
+      "rules": "required"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico",
+      "error": "Correo electrónico",
+      "rules": "required|email"
+    },
+    {
+      "type": "textarea",
+      "id": "message",
+      "label": "Comentario",
+      "error": "",
+      "rules": "none"
+    },
+    {
+      "type": "checkbox",
+      "id": "policy",
+      "label": "Acepto las <a href=\"#\">políticas de privacidad</a>",
+      "error": "Aceptar las políticas de privacidad",
+      "rules": "required"
+    }
+  ],
+  "btn": {
+    "txt": "Enviar sugerencia",
+    "link": {
+      "url": "#",
+      "type": "btn",
+      "blank": false
+    }
+  }
+}

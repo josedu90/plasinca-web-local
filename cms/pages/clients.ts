@@ -16,7 +16,7 @@ export default defineCmsCollection({
       cover: collections.file({
         label: 'Cover',
         fields: {
-          image: widgets.image({ label: 'Imagen', required: true, ...media.home, hint: 'Medidas: 420*421px' }),
+          image: widgets.image({ label: 'Imagen', required: true, ...media.clients, hint: 'Medidas: 420*421px' }),
           title: widgets.string({ label: 'Título', required: true }),
           txt: widgets.markdown({ label: 'Texto', required: false }),
         },

@@ -1,0 +1,61 @@
+{
+  "phones": {
+    "icon": {
+      "src": "/images/contact/telefono.png",
+      "alt": "",
+      "title": ""
+    },
+    "title": "Teléfonos de contacto",
+    "numbers": [
+      {
+        "number": "(593) 4 2114 457",
+        "link": {
+          "url": "tel:+59342114457",
+          "type": "a",
+          "blank": true
+        }
+      },
+      {
+        "number": "(593) 4 3705 650",
+        "link": {
+          "url": "tel:+59343705650",
+          "type": "a",
+          "blank": true
+        }
+      },
+      {
+        "number": "(593) 4 3705 652",
+        "link": {
+          "url": "tel:+59343705652",
+          "type": "a",
+          "blank": true
+        }
+      },
+      {
+        "number": "(593) 4 2113 559",
+        "link": {
+          "url": "tel:+59342113559",
+          "type": "a",
+          "blank": true
+        }
+      }
+    ]
+  },
+  "suggestions": {
+    "icon": {
+      "src": "/images/contact/buzon.png",
+      "alt": "",
+      "title": ""
+    },
+    "title": "¡Tu opinión es clave para mejorar! ",
+    "txt": "Déjanos tus sugerencias en el buzón y juntos construiremos un futuro más increíble. ¡Gracias por ser parte de nuestro viaje!",
+    "btn": {
+      "txt": "Enviar sugerencia",
+      "link": {
+        "url": "#",
+        "type": "btn",
+        "blank": false
+      }
+    }
+  }
+}

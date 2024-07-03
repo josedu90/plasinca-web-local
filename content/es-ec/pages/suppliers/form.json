@@ -1,0 +1,72 @@
+{
+  "txt": "Plasinca busca constantemente nuevos proveedores de alta calidad.<br><br>Si deseas colaborar con nosotros, completa el siguiente formulario con información sobre tus ofertas:",
+  "title": "Compártenos tu información",
+  "form": [
+    {
+      "type": "text",
+      "id": "company",
+      "label": "Empresa",
+      "error": "Empresa",
+      "rules": "required"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre y Apellidos",
+      "error": "Nombre y Apellidos",
+      "rules": "required"
+    },
+    {
+      "type": "tel",
+      "id": "phone",
+      "label": "TELÉFONO / CELULAR",
+      "error": "Teléfono/celular",
+      "rules": "required|min:10|numeric"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico",
+      "error": "Correo electrónico",
+      "rules": "required|email"
+    },
+    {
+      "type": "select",
+      "id": "product",
+      "label": "Tipo de producto y/o servicio",
+      "error": "Producto y/o servicio",
+      "rules": "required",
+      "options": [
+        { "label": "Materia prima" },
+        { "label": "Mantenimiento y reparaciones" },
+        { "label": "Insumos" },
+        { "label": "Servicios logísticos" },
+        { "label": "Equipos y repuestos" },
+        { "label": "Capacitaciones" },
+        { "label": "Otros servicios y/o producto" }
+      ]
+    },
+    {
+      "type": "file",
+      "id": "cv",
+      "label": "Adjunta tu presentación en pdf.",
+      "error": "CV",
+      "rules": "required"
+    },
+    {
+      "type": "checkbox",
+      "id": "policy",
+      "label": "Acepto las <a href=\"#\">políticas de privacidad</a>",
+      "error": "Aceptar las políticas de privacidad",
+      "rules": "required"
+    }
+  ],
+  "btn": {
+    "txt": "Enviar",
+    "link": {
+      "url": "#",
+      "type": "btn",
+      "blank": false
+    }
+  }
+}

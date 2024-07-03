@@ -105,11 +105,44 @@
             @apply w-full;
         }
     }
+    &-phones{
+        @apply bg-primary rounded-[16px] p-6 text-white text-[1.5rem];
+        .title{
+            @apply leading-5 font-medium py-8;
+        }
+        .txt{
+            @apply leading-5 font-light py-1;
+        }
+    }
+    &-suppliers{
+        @apply bg-gradient-to-t from-orange-100 to-secundary rounded-[16px] p-6 text-[1.5rem] flex flex-col justify-between;
+        .title{
+            @apply leading-5 font-medium py-5;
+        }
+        .txt{
+            @apply leading-5 font-light pb-5;
+        }
+    }
+    &-location{
+        @apply bg-gray-200 rounded-[16px] md:flex gap-4 p-5 text-[1.5rem] text-primary md:text-left text-center;
+        img, .btn{
+            @apply md:mx-[0] mx-auto;
+        }
+        .place{
+            @apply leading-5 font-medium py-5;
+        }
+        .address{
+            @apply leading-5 font-light pb-5;
+        }
+    }
 }
 .form{
     @apply rounded-[10px] overflow-y-scroll w-full max-w-[470px] max-h-[665px] px-10 py-10 bg-white;
     &::-webkit-scrollbar{
         @apply hidden;
+    }
+    .title{
+        @apply text-center text-primary font-medium text-[1.5rem] leading-6 mb-6;
     }
 }
 .date{

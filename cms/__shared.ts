@@ -15,6 +15,22 @@ export const media = {
     media_folder: '/public/images/products/',
     public_folder: '/images/products/',
   },
+  contact: {
+    media_folder: '/public/images/contact/',
+    public_folder: '/images/contact/',
+  },
+  clients: {
+    media_folder: '/public/images/clients/',
+    public_folder: '/images/clients/',
+  },
+  talent: {
+    media_folder: '/public/images/talent/',
+    public_folder: '/images/talent/',
+  },
+  about: {
+    media_folder: '/public/images/about/',
+    public_folder: '/images/about/',
+  },
 };
 
 export const notNested = {

@@ -17,7 +17,7 @@ export default defineCmsCollection({
       cover: collections.file({
         label: 'Cover',
         fields: {
-          image: widgets.image({ label: 'Imagen', required: true, ...media.home, hint: 'Medidas: 420*421px' }),
+          image: widgets.image({ label: 'Imagen', required: true, ...media.about, hint: 'Medidas: 420*421px' }),
           title: widgets.string({ label: 'Título', required: true }),
           txt: widgets.markdown({ label: 'Texto', required: false }),
         },
@@ -39,7 +39,7 @@ export default defineCmsCollection({
         label: 'Certificaciones',
         fields: {
           txt: widgets.markdown({ label: 'Texto', required: true }),
-          image: widgets.image({ label: 'Imagen', required: true, ...media.home, hint: 'Medidas: 310*119px' }),
+          image: widgets.image({ label: 'Imagen', required: true, ...media.about, hint: 'Medidas: 310*119px' }),
           btn: widgets.object({
             label: 'Botón',
             fields: {
@@ -61,7 +61,7 @@ export default defineCmsCollection({
           items: widgets.list({
             label: 'Lista de descargas',
             fields: {
-              image: widgets.image({ label: 'Imagen', required: true, ...media.home, hint: 'Medidas: 86*85px' }),
+              image: widgets.image({ label: 'Imagen', required: true, ...media.about, hint: 'Medidas: 86*85px' }),
               title: widgets.string({ label: 'Nombre', required: true }),
               btn: widgets.object({
                 label: 'Botón',
