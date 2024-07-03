@@ -172,6 +172,12 @@ export default defineCmsCollection({
                   label: widgets.string({ label: 'Nombre', required: true }),
                   error: widgets.string({ label: 'Error', required: true }),
                   rules: widgets.string({ label: 'Reglas', required: true }),
+                  options: widgets.list({
+                    label: 'Opciones',
+                    fields: {
+                      label: widgets.string({ label: 'Opción' }),
+                    },
+                  }),
                 },
               }),
               personal: widgets.list({
@@ -182,6 +188,12 @@ export default defineCmsCollection({
                   label: widgets.string({ label: 'Nombre', required: true }),
                   error: widgets.string({ label: 'Error', required: true }),
                   rules: widgets.string({ label: 'Reglas', required: true }),
+                  options: widgets.list({
+                    label: 'Opciones',
+                    fields: {
+                      label: widgets.string({ label: 'Opción' }),
+                    },
+                  }),
                 },
               }),
               btn: widgets.object({

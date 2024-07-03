@@ -52,6 +52,14 @@
             }
         }
     }
+    &-e{
+        .head{
+            @apply bg-primary border-primary rounded-b-[110px] pt-12 mb-5;
+            .title{
+                @apply text-secundary text-[4rem] leading-[4rem] font-light;
+            }
+        }
+    }
 }
 
 .certifications{
@@ -223,5 +231,20 @@
     @apply py-20;
     .title{
         @apply text-[2.813rem] leading-10 text-primary font-bold; 
+    }
+}
+
+.descri-form{
+    .txt{
+        @apply text-primary text-[1.5rem] leading-8 font-medium;
+    }
+    .box{
+        @apply bg-gray-200 rounded-[10px] pt-5;
+        .title{
+            @apply text-[1.5rem] text-primary font-medium text-center;
+        }
+        .form{
+            @apply bg-gray-200;
+        }
     }
 }

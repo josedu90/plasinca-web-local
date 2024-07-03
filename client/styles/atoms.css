@@ -11,6 +11,12 @@ input, select, textarea{
 label{
     @apply text-[0.875rem];
 }
+input[type="file"]{
+  @apply mt-1;
+  &::file-selector-button {
+      @apply bg-primary;
+  }
+}
 
 /* animaciones */
 

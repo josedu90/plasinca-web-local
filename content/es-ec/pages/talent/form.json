@@ -1,0 +1,75 @@
+{
+  "txt": "Completa este formulario y comparte tu CV con nosotros. Si tu perfil coincide con los requisitos de una vacante en nuestra fábrica de fundas plásticas en Guayaquil o en la producción de rollos de fundas plásticas personalizadas, nos pondremos en contacto contigo. También consideraremos perfiles para otras posiciones relacionadas con empaques plásticos.",
+  "title": "Compártenos tu talento",
+  "form": [
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Nombre y Apellidos",
+      "error": "Nombre y Apellidos",
+      "rules": "required"
+    },
+    {
+      "type": "tel",
+      "id": "phone",
+      "label": "Teléfono",
+      "error": "Teléfonos",
+      "rules": "required"
+    },
+    {
+      "type": "email",
+      "id": "email",
+      "label": "Correo electrónico",
+      "error": "Correo electrónico",
+      "rules": "required|email"
+    },
+    {
+      "type": "tel",
+      "id": "phone",
+      "label": "TELÉFONO / CELULAR",
+      "error": "Teléfono/celular",
+      "rules": "required|min:10|numeric"
+    },
+    {
+      "type": "select",
+      "id": "position",
+      "label": "Cargo",
+      "error": "Cargo",
+      "rules": "required",
+      "options": [
+        { "label": "Finanzas y contabilidad" },
+        { "label": "Ventas y marketing" },
+        { "label": "Compras" },
+        { "label": "Talento Humano" },
+        { "label": "Desarrollo (I+D)" },
+        { "label": "Producción (administrativo)" },
+        { "label": "Extrusión" },
+        { "label": "Sellado" },
+        { "label": "Impresión" },
+        { "label": "Corte / Rebobinado" }
+      ]
+    },
+    {
+      "type": "file",
+      "id": "cv",
+      "label": "Adjuntar tu CV en pdf.",
+      "error": "CV",
+      "rules": "required"
+    },
+    {
+      "type": "checkbox",
+      "id": "policy",
+      "label": "Acepto las <a href=\"#\">políticas de privacidad</a>",
+      "error": "Aceptar las políticas de privacidad",
+      "rules": "required"
+    }
+  ],
+  "btn": {
+    "txt": "Enviar Postulación",
+    "link": {
+      "url": "#",
+      "type": "btn",
+      "blank": false
+    }
+  }
+}

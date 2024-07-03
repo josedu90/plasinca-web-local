@@ -114,4 +114,8 @@ setTimeout(() => {
     const form2 = createSingleForm();
     form2.mount('#the-empresa');
   }
+  if (document.getElementById('the-talent')) {
+    const form3 = createSingleForm();
+    form3.mount('#the-talent');
+  }
 }, 30);
