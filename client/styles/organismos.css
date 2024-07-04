@@ -26,7 +26,7 @@
     &-b{
         @apply bg-primary pt-16;
         .txt{
-            @apply text-white text-[2.813rem] leading-9 font-light;
+            @apply text-white text-[2.813rem] leading-10 font-light;
             span{
                 @apply font-bold text-secundary;
             }
@@ -58,6 +58,15 @@
             .title{
                 @apply text-secundary text-[4rem] leading-[4rem] font-light;
             }
+        }
+    }
+    &-f{
+        @apply bg-primary pt-16;
+        .title{
+            @apply text-secundary text-[4rem] leading-[4rem] font-light;
+        }
+        .txt{
+            @apply text-white text-[2.625rem] leading-10 font-light mt-20;
         }
     }
 }
@@ -257,4 +266,8 @@
     .txt{
         @apply text-dark-100 text-[1.5rem] leading-6 font-medium text-center md:w-6/12 mx-auto my-16;
     }
+}
+
+.industries-grid{
+    @apply bg-white rounded-t-[110px];
 }

@@ -31,6 +31,14 @@ export const media = {
     media_folder: '/public/images/about/',
     public_folder: '/images/about/',
   },
+  suppliers: {
+    media_folder: '/public/images/suppliers/',
+    public_folder: '/images/suppliers/',
+  },
+  industries: {
+    media_folder: '/public/images/industries/',
+    public_folder: '/images/industries/',
+  },
 };
 
 export const notNested = {

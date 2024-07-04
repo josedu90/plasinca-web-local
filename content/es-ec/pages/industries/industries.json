@@ -1,0 +1,224 @@
+{
+  "items": [
+    {
+      "image": {
+        "src": "/images/industries/camaronera.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Camaronera",
+      "list": [
+        {
+          "txt": "Funda pañal"
+        },
+        {
+          "txt": "Larveras"
+        },
+        {
+          "txt": "IQF"
+        },
+        {
+          "txt": "Master Chino"
+        },
+        {
+          "txt": "Mandiles"
+        },
+        {
+          "txt": "Salmuera"
+        },
+        {
+          "txt": "Pomada"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/pesca.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Pesca",
+      "list": [
+        {
+          "txt": "Fundas libreras"
+        },
+        {
+          "txt": "Rollos Tubulares"
+        },
+        {
+          "txt": "Lámina separadora"
+        },
+        {
+          "txt": "Funda Pañal"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/banano.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Banano",
+      "list": [
+        {
+          "txt": "Mangas Polypack"
+        },
+        {
+          "txt": "Fundas al Vacío para cajas"
+        },
+        {
+          "txt": "Láminas separadoras"
+        },
+        {
+          "txt": "Banavac"
+        },
+        {
+          "txt": "Cluster bag"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/alimentos.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Alimentos",
+      "list": [
+        {
+          "txt": "Para lenteja, Pan, arroz, azúcar"
+        },
+        {
+          "txt": "Para Cacao, chifle, empanada, brócoli"
+        },
+        {
+          "txt": "Y todo tipo de alimento"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/comercial.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Comercial",
+      "list": [
+        {
+          "txt": "Fundas post-consumo con certificado MIPRO como: fundas boutique con asa, troqueladas, con y sin impresión, fundas tipo camiseta con y sin impresión."
+        },
+        {
+          "txt": "Rollos impreso Banderas del Ecuador"
+        },
+        {
+          "txt": "Fundas de basura"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/agricola.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Agrícola",
+      "list": [
+        {
+          "txt": "Fundas para vivero perforadas"
+        },
+        {
+          "txt": "Fundas coextruidas con UV"
+        },
+        {
+          "txt": "Fundas para gaveta"
+        },
+        {
+          "txt": "Rollos negros, abiertos a un lado"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/construccion.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Construcción",
+      "list": [
+        {
+          "txt": "Fundas de 20 y 50 kilos"
+        },
+        {
+          "txt": "Rollos microperforados"
+        },
+        {
+          "txt": "Rollos impreso \"Peligro\""
+        },
+        {
+          "txt": "Rollos termoencogibles"
+        },
+        {
+          "txt": "Rollos impresos para empaque automático para envase de polvo"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/aceite.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Aceite",
+      "list": [
+        {
+          "txt": "Fundas transparentes para aceite"
+        },
+        {
+          "txt": "Fundas azules y de diferentes colores"
+        },
+        {
+          "txt": "Rollos impresos para manteca y envasado automático"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/limpieza.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "Artículos de limpieza",
+      "list": [
+        {
+          "txt": "Fundas y rollos PP para jabón"
+        },
+        {
+          "txt": "Rollos para empaquetado automático impresos"
+        },
+        {
+          "txt": "Fundas para detergente"
+        }
+      ]
+    },
+    {
+      "image": {
+        "src": "/images/industries/papel.png",
+        "alt": "",
+        "title": ""
+      },
+      "title": "De papel",
+      "list": [
+        {
+          "txt": "Fundas para proteger al papel periódico de las lluvias"
+        },
+        {
+          "txt": "Fundas para papel higiénico y servilletas"
+        },
+        {
+          "txt": "Rollos termoencogibles y enfardadores"
+        }
+      ]
+    }
+  ]
+}

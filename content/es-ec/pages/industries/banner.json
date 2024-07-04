@@ -1,0 +1,16 @@
+{
+  "txt": "Más que una fábrica de fundas plásticas en Ecuador, somos quienes aseguramos que tus productos lleguen frescos y protegidos a todo el Ecuador.",
+  "btn": {
+    "txt": "Ir a productos",
+    "link": {
+      "url": "products",
+      "type": "mk",
+      "blank": false
+    }
+  },
+  "image": {
+    "src": "/images/industries/camion.png",
+    "alt": "",
+    "title": ""
+  }
+}

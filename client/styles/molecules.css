@@ -135,6 +135,20 @@
             @apply leading-5 font-light pb-5;
         }
     }
+    &-industrie{
+        @apply bg-primary rounded-[28px] py-5 px-12;
+        .title{
+            @apply text-center text-secundary font-medium text-[1.5rem] leading-6 my-6;
+        }
+        img{
+            @apply mx-auto;
+        }
+        ul{
+            li{
+                @apply text-white border-b-[1px] border-white border-solid text-center text-[1.063rem] leading-5 py-2;
+            }
+        }
+    }
 }
 .form{
     @apply rounded-[10px] overflow-y-scroll w-full max-w-[470px] max-h-[665px] px-10 py-10 bg-white;
@@ -170,6 +184,18 @@
         }
         .btn{
             @apply mx-auto;
+        }
+    }
+}
+
+.banner{
+    &-product{
+        @apply bg-gradient-to-r from-orange-100 to-secundary md:flex items-center justify-between gap-4 py-10 md:px-20 px-10 rounded-[16px];
+        .txt{
+            @apply text-[1.5rem] leading-[1] font-medium mb-8;
+        }
+        img{
+            @apply md:mt-0 mt-10
         }
     }
 }
