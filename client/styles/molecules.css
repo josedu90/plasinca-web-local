@@ -199,3 +199,21 @@
         }
     }
 }
+
+.head{
+    @apply bg-primary text-white text-center text-[2.25rem] font-medium py-20 rounded-b-[110px] leading-8;
+}
+
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+}
+.rotate-90 {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+}
+.rotate-0 {
+    transform: rotate(0deg);
+    transition: transform 0.3s ease;
+}
