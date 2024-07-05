@@ -1,53 +1,29 @@
 {
-    "txt": "Síguenos en",
-    "items": [
-        {
-            "icon": {
-                "src": "/images/iconos/facebook-footer.png",
-                "alt": "",
-                "title": ""
-            },
-            "link": {
-                "url": "",
-                "type": "a",
-                "blank": true
-            }
-        },
-        {
-            "icon": {
-                "src": "/images/iconos/linkedin-footer.png",
-                "alt": "",
-                "title": ""
-            },
-            "link": {
-                "url": "",
-                "type": "a",
-                "blank": true
-            }
-        },
-        {
-            "icon": {
-                "src": "/images/iconos/tiktok-footer.png",
-                "alt": "",
-                "title": ""
-            },
-            "link": {
-                "url": "",
-                "type": "a",
-                "blank": true
-            }
-        },
-        {
-            "icon": {
-                "src": "/images/iconos/instagram-footer.png",
-                "alt": "",
-                "title": ""
-            },
-            "link": {
-                "url": "",
-                "type": "a",
-                "blank": true
-            }
-        }
-    ]
+  "txt": "Síguenos en",
+  "items": [
+    {
+      "icon": {
+        "src": "/images/iconos/linkedin-footer.png",
+        "alt": "",
+        "title": ""
+      },
+      "link": {
+        "url": "https://www.linkedin.com/company/plasinca/",
+        "type": "a",
+        "blank": true
+      }
+    },
+    {
+      "icon": {
+        "src": "/images/iconos/instagram-footer.png",
+        "alt": "",
+        "title": ""
+      },
+      "link": {
+        "url": "https://www.instagram.com/plasinca.ec/",
+        "type": "a",
+        "blank": true
+      }
+    }
+  ]
 }

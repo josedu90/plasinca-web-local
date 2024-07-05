@@ -1,7 +1,6 @@
 <script lang="ts" setup>
 const { shared } = useSharedContext();
 const { products } = shared;
-console.log(products);
 
 products.forEach((item: { link?: any; slug: any }) => {
   item.link = {

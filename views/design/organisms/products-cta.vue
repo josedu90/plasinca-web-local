@@ -13,8 +13,8 @@ defineProps({
       <div class="xl:w-10/12 w-full mx-auto relative z-20">
         <div class="title relative" v-html="data?.title" />
         <div class="txt relative" v-html="data?.txt" />
-        <AtomsButton class="mx-auto my-12 open-dialog" data-dialog-id="dialog-overlay-1">
-          <MoleculesBtn :data="data?.btn" />
+        <AtomsButton :data="data?.btn.link" class="mx-auto my-12 open-dialog" data-dialog-id="dialog-overlay-1">
+          <MoleculesBtn :data="data?.btn" class="mx-auto" />
         </AtomsButton>
         <MoleculesGridProducts />
       </div>

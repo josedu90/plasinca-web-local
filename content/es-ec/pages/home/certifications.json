@@ -5,7 +5,7 @@
   "btn": {
     "txt": "Conocer más",
     "link": {
-      "url": "",
+      "url": "about",
       "type": "mk",
       "blank": false
     }

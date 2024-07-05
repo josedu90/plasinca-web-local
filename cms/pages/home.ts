@@ -56,6 +56,13 @@ export default defineCmsCollection({
             label: 'Botón',
             fields: {
               txt: widgets.string({ label: 'Texto', required: true }),
+              link: widgets.object({
+                label: 'Enlace',
+                fields: linkOrButton(widgets),
+              }),
+            },
+            extraOptions: {
+              ...notNested,
             },
           }),
         },

@@ -1,41 +1,34 @@
 <script lang="ts" setup>
 const { cms } = useContext();
 const { logos, menu, footer, networks } = cms.$settings.common;
+const { shared } = useSharedContext();
+const { products } = shared;
 
-// dev
-const items = [
-  {
-    txt: 'Rollos naturales o pigmentados',
-    link: {
-      url: 'products',
-      type: 'mk',
-      blank: false,
-    },
-  },
-  {
-    txt: 'Fundas naturales o pigmentadas',
-    link: {
-      url: 'industrias',
-      type: 'mk',
-      blank: false,
-    },
-  },
-  {
-    txt: 'Productos plásticos especiales',
-    link: {
-      url: 'clients',
-      type: 'mk',
-      blank: false,
-    },
-  },
-];
+function removeColorText(str: string): string {
+  // Expresión regular para buscar "(color)"
+  const regex = /\(color\)/g;
+
+  // Reemplazar todas las ocurrencias de "(color)" con una cadena vacía
+  return str.replace(regex, '');
+}
+
+products.forEach((item: { link?: any; slug: any; name?: any }) => {
+  item.link = {
+    url: `single-products/${item.slug}`,
+    type: 'mk',
+    blank: false,
+  };
+  // Asegurarse de que item.name exista y no sea null o undefined
+  if (item.name)
+    item.name = removeColorText(item.name);
+});
 
 // Encontrar el objeto con link.url igual a 'products'
 const targetObject = menu.items.find((item: { link: { url: string } }) => item.link.url === 'products');
 
 // Añadir el arreglo de objetos al objeto encontrado
 if (targetObject)
-  targetObject.menu = items;
+  targetObject.menu = products;
 
 // Quitar el objeto con link.url igual a 'products'
 const filteredData = menu.items.filter((item: { link: { url: string } }) => item.link.url !== 'products');
@@ -73,7 +66,7 @@ const filteredData = menu.items.filter((item: { link: { url: string } }) => item
                 <ul class="submenu">
                   <li v-for="(item, i) in targetObject.menu" :key="i" class="option my-2">
                     <AtomsButton :data="item.link">
-                      {{ item.txt }}
+                      {{ item.name }}
                     </AtomsButton>
                   </li>
                 </ul>

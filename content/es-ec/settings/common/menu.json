@@ -13,7 +13,7 @@
     {
       "txt": "Industrias",
       "link": {
-        "url": "industrias",
+        "url": "industries",
         "type": "mk",
         "blank": false
       },
@@ -21,7 +21,7 @@
       "submenu": false
     },
     {
-      "txt": "Cliente",
+      "txt": "Clientes",
       "link": {
         "url": "clients",
         "type": "mk",
@@ -54,6 +54,16 @@
       "txt": "Proveedores",
       "link": {
         "url": "suppliers",
+        "type": "mk",
+        "blank": false
+      },
+      "header": false,
+      "submenu": false
+    },
+    {
+      "txt": "Contactos",
+      "link": {
+        "url": "contact",
         "type": "mk",
         "blank": false
       },

@@ -23,7 +23,7 @@ defineProps({
         <li v-for="(item, i) in data?.menu" :key="i" :style="`transform: translateY(-${i + (58 * (i + 1))}px);`">
           <AtomsButton :data="item.link">
             <div class="btn">
-              <span>{{ item?.txt }}</span>
+              <span>{{ item?.name }}</span>
             </div>
           </AtomsButton>
         </li>

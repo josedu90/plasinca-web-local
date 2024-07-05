@@ -3,7 +3,7 @@
   "items": [
     {
       "image": {
-        "src": "/images/industrias/camaronera.png",
+        "src": "/images/industries/camaronera.png",
         "alt": "",
         "title": ""
       },
@@ -11,7 +11,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/pesca.png",
+        "src": "/images/industries/pesca.png",
         "alt": "",
         "title": ""
       },
@@ -19,7 +19,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/banano.png",
+        "src": "/images/industries/banano.png",
         "alt": "",
         "title": ""
       },
@@ -27,7 +27,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/alimentos.png",
+        "src": "/images/industries/alimentos.png",
         "alt": "",
         "title": ""
       },
@@ -35,7 +35,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/comercial.png",
+        "src": "/images/industries/comercial.png",
         "alt": "",
         "title": ""
       },
@@ -43,7 +43,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/agricola.png",
+        "src": "/images/industries/agricola.png",
         "alt": "",
         "title": ""
       },
@@ -51,7 +51,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/construccion.png",
+        "src": "/images/industries/construccion.png",
         "alt": "",
         "title": ""
       },
@@ -59,7 +59,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/aceite.png",
+        "src": "/images/industries/aceite.png",
         "alt": "",
         "title": ""
       },
@@ -67,7 +67,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/limpieza.png",
+        "src": "/images/industries/limpieza.png",
         "alt": "",
         "title": ""
       },
@@ -75,7 +75,7 @@
     },
     {
       "image": {
-        "src": "/images/industrias/papel.png",
+        "src": "/images/industries/papel.png",
         "alt": "",
         "title": ""
       },

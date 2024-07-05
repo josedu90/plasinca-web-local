@@ -9,7 +9,7 @@ defineProps({
 <template>
   <div class="head">
     <div class="container mx-auto">
-      <div class="w-6/12 mx-auto">
+      <div class="md:w-6/12 w-full mx-auto">
         {{ data }}
       </div>
     </div>

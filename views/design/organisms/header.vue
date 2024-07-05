@@ -1,43 +1,37 @@
 <script lang="ts" setup>
 const { cms } = useContext();
 const { logos, menu, btns } = cms.$settings.common;
+const { shared } = useSharedContext();
+const { products } = shared;
+
+function removeColorText(str: string): string {
+  // Expresión regular para buscar "(color)"
+  const regex = /\(color\)/g;
+
+  // Reemplazar todas las ocurrencias de "(color)" con una cadena vacía
+  return str.replace(regex, '');
+}
+
+products.forEach((item: { link?: any; slug: any; name?: any }) => {
+  item.link = {
+    url: `single-products/${item.slug}`,
+    type: 'mk',
+    blank: false,
+  };
+  // Asegurarse de que item.name exista y no sea null o undefined
+  if (item.name)
+    item.name = removeColorText(item.name);
+});
+
 // Extraer solo las opciones con header === true
 const filteredData = menu.items.filter((item: { header: boolean }) => item.header !== false);
-
-// dev
-const items = [
-  {
-    txt: 'Rollos naturales o pigmentados',
-    link: {
-      url: 'products',
-      type: 'mk',
-      blank: false,
-    },
-  },
-  {
-    txt: 'Fundas naturales o pigmentadas',
-    link: {
-      url: 'industrias',
-      type: 'mk',
-      blank: false,
-    },
-  },
-  {
-    txt: 'Productos plásticos especiales',
-    link: {
-      url: 'clients',
-      type: 'mk',
-      blank: false,
-    },
-  },
-];
 
 // Encontrar el objeto con link.url igual a 'products'
 const targetObject = filteredData.find((item: { link: { url: string } }) => item.link.url === 'products');
 
 // Añadir el arreglo de objetos al objeto encontrado
 if (targetObject)
-  targetObject.menu = items;
+  targetObject.menu = products;
 </script>
 
 <template>
@@ -45,7 +39,9 @@ if (targetObject)
     <div class="container mx-auto">
       <div class="xl:w-10/12 w-full mx-auto flex gap-4 items-center justify-between">
         <div class="flex-none">
-          <mk-picture e-width="200" e-height="47" :src="logos?.logo_header.src" :alt="logos?.logo_header.alt" :title="logos?.logo_header.title" />
+          <a href="/">
+            <mk-picture e-width="200" e-height="47" :src="logos?.logo_header.src" :alt="logos?.logo_header.alt" :title="logos?.logo_header.title" />
+          </a>
         </div>
         <nav class="grow lg:block hidden">
           <ul class="flex gap-12 items-center justify-center">
