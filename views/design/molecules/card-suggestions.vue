@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="card-suppliers">
+  <div class="card-suggestions">
     <mk-picture e-width="57" e-height="57" :src="data?.icon?.src" :alt="data?.icon?.alt" :title="data?.icon?.title" />
     <div class="title" v-html="data?.title" />
     <div class="txt" v-html="data?.txt" />

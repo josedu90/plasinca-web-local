@@ -8,6 +8,6 @@ defineProps({
 
 <template>
   <div id="dialog-overlay-4" class="overlay dialog-overlay">
-    <MoleculesFormSuppliers :data="data" class="chip" />
+    <MoleculesFormSuggestions :data="data" class="chip" />
   </div>
 </template>

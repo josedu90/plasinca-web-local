@@ -54,7 +54,7 @@
     }
     &-e{
         .head{
-            @apply bg-primary border-primary rounded-b-[110px] pt-12 mb-5;
+            @apply bg-primary border-primary rounded-b-[110px] pt-12 mb-5 pb-0;
             .title{
                 @apply text-secundary text-[4rem] leading-[4rem] font-light;
             }

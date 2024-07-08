@@ -9,10 +9,10 @@ const { cover, cards, location, form } = cms.$page;
     <div class="container mx-auto">
       <div class="lg:w-10/12 w-full md:flex items-stretch mx-auto gap-8">
         <MoleculesCardPhones class="basis-1/3 md:my-0 my-5" :data="cards.phones" />
-        <MoleculesCardSuppliers class="basis-2/3" :data="cards.suggestions" />
+        <MoleculesCardSuggestions class="basis-2/3" :data="cards.suggestions" />
       </div>
     </div>
     <OrganismsLocation :data="location" />
-    <OrganismsOverlayFormSuppliers :data="form" />
+    <OrganismsOverlayFormSuggestions :data="form" />
   </main>
 </template>

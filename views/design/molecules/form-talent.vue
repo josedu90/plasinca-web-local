@@ -10,10 +10,20 @@ defineProps({
   <section class="form !max-h-fit !overflow-visible">
     <div class="container mx-auto">
       <form id="the-talent" :v-scope="'SendForm()'" :[`@submit.prevent`]="'sendForm'">
+        <label :v-scope="`Field({id:'form',initValue:'${data?.formType}'})`">
+          <input id="form" :v-model="'value'" type="hidden" name="form">
+        </label>
         <template v-for="(item, i) in data?.form" :key="i">
-          <fieldset v-if="item.type === 'text' || item.type === 'number' || item.type === 'file' || item.type === 'tel' || item.type === 'email'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
+          <fieldset v-if="item.type === 'text' || item.type === 'number' || item.type === 'tel' || item.type === 'email'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
             <label :for="item.id">{{ item.label }}</label>
             <input :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
+            <div class="regular text-xs pt-1 pb-3 text-red-900">
+              [{error}]
+            </div>
+          </fieldset>
+          <fieldset v-if="item.type === 'file'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
+            <label :for="item.id">{{ item.label }}</label>
+            <input :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'" :@change="`handleFileChange`" accept="application/pdf">
             <div class="regular text-xs pt-1 pb-3 text-red-900">
               [{error}]
             </div>
@@ -44,7 +54,7 @@ defineProps({
             </div>
           </fieldset>
         </template>
-        <MoleculesAlert :v-show="`response.active`" />
+        <MoleculesAlert data="alert-4" :v-show="`response.active`" />
         <atoms-button class="btn !w-full">
           <span :v-if="`!spinner`">{{ data?.btn.txt }}</span>
           <AtomsSpinner :v-if="`spinner`" />

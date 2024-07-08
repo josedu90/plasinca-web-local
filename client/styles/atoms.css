@@ -13,6 +13,9 @@ label{
 }
 label[for="policy"]{
   @apply ml-0;
+  a{
+    @apply underline;
+  }
 }
 input[type="file"]{
   @apply mt-1;

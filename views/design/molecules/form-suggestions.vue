@@ -10,11 +10,21 @@ defineProps({
   <section class="form !max-h-fit !overflow-visible">
     <div class="container mx-auto">
       <div v-if="data?.title" class="title" v-html="data?.title" />
-      <form id="the-suppliers" :v-scope="'SendForm()'" :[`@submit.prevent`]="'sendForm'">
+      <form id="the-suggestions" :v-scope="'SendForm()'" :[`@submit.prevent`]="'sendForm'">
+        <label :v-scope="`Field({id:'form',initValue:'suggestions'})`">
+          <input id="form" :v-model="'value'" type="hidden" name="form">
+        </label>
         <template v-for="(item, i) in data?.form" :key="i">
-          <fieldset v-if="item.type === 'text' || item.type === 'number' || item.type === 'file' || item.type === 'tel' || item.type === 'email'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
+          <fieldset v-if="item.type === 'text' || item.type === 'number' || item.type === 'tel' || item.type === 'email'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
             <label :for="item.id">{{ item.label }}</label>
             <input :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
+            <div class="regular text-xs pt-1 pb-3 text-red-900">
+              [{error}]
+            </div>
+          </fieldset>
+          <fieldset v-if="item.type === 'file'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
+            <label :for="item.id">{{ item.label }}</label>
+            <input :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'" :@change="`handleFileChange`" accept="application/pdf">
             <div class="regular text-xs pt-1 pb-3 text-red-900">
               [{error}]
             </div>
@@ -38,14 +48,14 @@ defineProps({
             </div>
           </fieldset>
           <fieldset v-if="item.type === 'checkbox'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
-            <input :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
+            <input :id="item.id" :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
             <label :for="item.id" v-html="item.label" />
             <div class="regular text-xs pt-1 pb-3 text-red-900">
               [{error}]
             </div>
           </fieldset>
         </template>
-        <MoleculesAlert :v-show="`response.active`" />
+        <MoleculesAlert data="alert-3" :v-show="`response.active`" />
         <atoms-button class="btn !w-full">
           <span :v-if="`!spinner`">{{ data?.btn.txt }}</span>
           <AtomsSpinner :v-if="`spinner`" />
