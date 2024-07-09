@@ -13,7 +13,7 @@
     {
       "type": "tel",
       "id": "phone",
-      "label": "TELÉFONO / CELULAR",
+      "label": "Teléfono / Celular",
       "error": "Teléfono/celular",
       "rules": "required|min:10|numeric"
     },

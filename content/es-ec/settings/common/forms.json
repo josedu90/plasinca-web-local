@@ -1,5 +1,4 @@
 {
-  "size": "Medidas",
   "company": [
     {
       "type": "text",
@@ -32,7 +31,7 @@
     {
       "type": "tel",
       "id": "phone",
-      "label": "TELÉFONO / CELULAR",
+      "label": "Teléfono / Celular",
       "error": "Teléfono/celular",
       "rules": "required|min:10|numeric"
     },
@@ -77,21 +76,33 @@
       "rules": "required"
     },
     {
-      "type": "number",
+      "type": "select",
+      "id": "unidad",
+      "label": "Selecciona la unidad de medida en la que vas a colocar ancho, largo y espesor",
+      "error": "Unidad de medida",
+      "rules": "required",
+      "options": [
+        { "label": "Centímetros", "value": "cm" },
+        { "label": "Milímietros", "value": "mm" },
+        { "label": "Pulgadas", "value": "in" }
+      ]
+    },
+    {
+      "type": "text",
       "id": "width",
       "label": "Ancho",
       "error": "Ancho",
       "rules": "required"
     },
     {
-      "type": "number",
+      "type": "text",
       "id": "large",
       "label": "Largo",
       "error": "Largo",
       "rules": "required"
     },
     {
-      "type": "number",
+      "type": "text",
       "id": "thickness",
       "label": "Espesor",
       "error": "Espesor",
@@ -102,7 +113,7 @@
       "id": "units",
       "label": "Unidades a cotizar",
       "error": "Unidades",
-      "rules": "required"
+      "rules": "none"
     },
     {
       "type": "textarea",

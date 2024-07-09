@@ -9,10 +9,10 @@ input, select, textarea{
     }
 }
 label{
-    @apply text-[0.875rem] ml-5;
+    @apply text-[0.875rem] ml-5 block;
 }
 label[for="policy"]{
-  @apply ml-0;
+  @apply ml-0 inline;
   a{
     @apply underline;
   }

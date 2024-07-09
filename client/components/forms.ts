@@ -27,6 +27,19 @@ async function convertToBase64(file: File) {
   return r.split(',')[1];
 }
 
+function convertirAPulgadas(valor: number, unidad: any) {
+  switch (unidad) {
+    case 'cm':
+      return valor * 0.393701;
+    case 'mm':
+      return valor * 0.0393701;
+    case 'in':
+      return valor;
+    default:
+      return valor;
+  }
+}
+
 function createSingleForm() {
   const _state = reactive<StateForm>({
     initValues: {},
@@ -58,6 +71,14 @@ function createSingleForm() {
             // Puedes mostrar un mensaje de error al usuario, si es necesario
           }
         }
+      },
+      async calculateUnits() {
+        const anchoEnPulgadas = convertirAPulgadas(_state.values.width, _state.values.unidad);
+        const largoEnPulgadas = convertirAPulgadas(_state.values.large, _state.values.unidad);
+        const espesorEnPulgadas = convertirAPulgadas(_state.values.thickness, _state.values.unidad) * 1000;
+        // Realiza el cálculo necesario aquí. Por ejemplo, multiplicamos los valores.
+        const resultado = (anchoEnPulgadas * largoEnPulgadas * espesorEnPulgadas) / 33;
+        _state.values.units = Math.ceil((300000 / resultado) / 1000) * 1000;
       },
       async sendForm() {
         const { valid } = validForm();

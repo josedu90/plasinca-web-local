@@ -7,10 +7,14 @@ const { forms } = cms.$settings.common;
   <section class="form">
     <div class="container mx-auto">
       <form id="the-person" :v-scope="'SendForm()'" :[`@submit.prevent`]="'sendForm'">
+        <label :v-scope="`Field({id:'form',initValue:'person'})`">
+          <input id="form" :v-model="'value'" type="hidden" name="form">
+        </label>
         <template v-for="(item, i) in forms?.personal" :key="i">
           <fieldset v-if="item.type === 'text' || item.type === 'number' || item.type === 'tel' || item.type === 'email'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
             <label :for="item.id">{{ item.label }}</label>
-            <input :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
+            <input v-if="item.id === 'large' || item.id === 'width' || item.id === 'thickness'" :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'" :@change="`calculateUnits`" class="border-red">
+            <input v-else :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
             <div class="regular text-xs pt-1 pb-3 text-red-900">
               [{error}]
             </div>

@@ -7,10 +7,15 @@ const { forms } = cms.$settings.common;
   <section class="form">
     <div class="container mx-auto">
       <form id="the-empresa" :v-scope="'SendForm()'" :[`@submit.prevent`]="'sendForm'">
+        <label :v-scope="`Field({id:'form',initValue:'company'})`">
+          <input id="form" :v-model="'value'" type="hidden" name="form">
+        </label>
         <template v-for="(item, i) in forms?.company" :key="i">
           <fieldset v-if="item.type === 'text' || item.type === 'number' || item.type === 'tel' || item.type === 'email'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
             <label :for="item.id">{{ item.label }}</label>
-            <input :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
+            <input v-if="item.id === 'large' || item.id === 'width' || item.id === 'thickness'" :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'" :@change="`calculateUnits`" class="border-red">
+            <input v-else-if="item.id === 'units'" :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'" readonly disabled>
+            <input v-else :type="item.type" :name="item.id" :placeholder="item.placeholder" :v-model="'value'">
             <div class="regular text-xs pt-1 pb-3 text-red-900">
               [{error}]
             </div>
@@ -24,8 +29,13 @@ const { forms } = cms.$settings.common;
           </fieldset>
           <fieldset v-if="item.type === 'select'" :v-scope="`Field({id:'${item?.id}',label:'${item?.error}',rules:'${item?.rules}'})`">
             <label :for="item.id">{{ item.label }}</label>
-            <select :id="item.id" :name="item.id" :v-model="'value'">
-              <option v-for="(ite, j) in item.options" :key="j" :value="ite.label">
+            <select v-if="item.id === 'unidad'" :id="item.id" :@change="`calculateUnits`" :name="item.id" :v-model="'value'">
+              <option v-for="(ite, j) in item.options" :key="j" :value="ite.value ? ite.value : ite.label">
+                {{ ite.label }}
+              </option>
+            </select>
+            <select v-else :id="item.id" :@change="`calculateUnits`" :name="item.id" :v-model="'value'">
+              <option v-for="(ite, j) in item.options" :key="j" :value="ite.value ? ite.value : ite.label">
                 {{ ite.label }}
               </option>
             </select>
