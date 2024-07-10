@@ -1,4 +1,4 @@
 User-Agent: *
 
-Sitemap: https://midominio.com/sitemap.xml
+Sitemap: https://plasinca.com/sitemap.xml
 

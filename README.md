@@ -1,41 +1,48 @@
-# Proyecto inicial
+# Inicio rapido
+## Requerimientos
+- [Node](https://nodejs.org/en/) >= 18
+- [pnpm](https://pnpm.io/) >= 7.0
+- Sistema operativo linux (Fedora o ubuntu)
 
-
-## Nombre de componentes
-
-Cada componente dentro de la carpeta view recibe el subfijo de la carpeta padre en la que se encuentra.
-Esto funciona solo a partir del 2 nivel
-
- | Ruta                                                       | nombre del componente      |
- | ---------------------------------------------------------- | -------------------------- |
- | /templates(nivel 1)/MainHome.vue                           | ------>  MainHome          |
- | /partials(nivel 1)/home(nivel 2)/Banner.vue                | ------>  HomeBanner        |
- | /design(nivel 1)/atoms(nivel 2)/button.vue                 | ------>  AtomsButton       |
- | /design(nivel 1)/molecules(nivel 2)/banner.vue             | ------>  MoleculesBanner   |
- | /design(nivel 1)/atoms(nivel 2)/common(nivel 3)/button.vue | ------>  AtomsCommonButton |
-
-
-
-## Cms
-Para ingresas al cms vaya a la siguiente ruta
+Se requiere configurar las variables de entorno en el archivo .env
+- URL
+- FLOW_USER_TOKEN
+- FLOW_LICENSE_TOKEN
+## Instalalacion de paquetes
 
 ```
-/cms/v2/app
+pnpm install
+```
+### Consideraciones
+Se necesita configurar la variable de entorno FLOW_USER_TOKEN a nivel del sistema antes de ejecutar el comando de instalacion
+## Comandos
+Para la ejecucion de estas comando se usan pnpm como gestor de paquetes
+### dev
+Levanta el servidor de desarrollo
+```
+pnpm dev
 ```
 
-## MkIcon
-Cambio de propiedad type por collection
+### generate
+Compila y genera todos los archivos del sitio, los archivos se publican en **.flow/output/public** o end **dist**
+```
+pnpm generate
+```
+### preview
 
-```html
-<!-- Old -->
-<mk-icon type="mdi">plus</mk-icon>
-<!-- New -->
-<mk-icon collection="mdi">plus</mk-icon>
-<!-- Short new alternative -->
-<mk-icon>mdi:plus</mk-icon>
-<mk-icon>ci:arrow-left</mk-icon>
-
+Levanta un servidor con los archivos generados por el comando **generate**
 
 ```
+pnpm preview
+```
 
-# plasinca-web
+### format
+Da formato al codigo para evitar malas practicas.
+
+```
+pnpm format
+```
+
+## Otros
+
+Para mas informacion revise la carpeta _docs que tiene detalles adicionales acerca de framework
