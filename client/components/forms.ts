@@ -87,7 +87,7 @@ function createSingleForm() {
 
         this.spinner = true;
 
-        const url = 'https://n8n.apps.monkeyplus.cloud/webhook-test/9e16eb98-5470-4083-a962-7aac4e51e9e5';
+        const url = '/sendinformation.ts';
 
         const formData = { ..._state.values };
 

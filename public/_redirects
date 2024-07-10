@@ -1,2 +1,3 @@
 /proxy-auth/* /.netlify/functions/auth 200
 /proxy-lead/* /.netlify/functions/lead 200
+/sendinformation.ts https://n8n.apps.monkeyplus.cloud/webhook/9e16eb98-5470-4083-a962-7aac4e51e9e5 200!
