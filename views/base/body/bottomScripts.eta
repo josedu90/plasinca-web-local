@@ -2,27 +2,26 @@
   {
     "@context": "http://schema.org",
     "@type": "LocalBusiness",
-    "image": "https://volrisk.com/images/meta.jpg",
-    "@id": "https://volrisk.com",
-    "name": "Volrisk",
-    "url": "https://volrisk.com",
-    "telephone": "(+593) 2-382-5670",
+    "image": "https://plasinca.com/images/meta.jpg",
+    "@id": "https://plasinca.com/",
+    "name": "Plasinca",
+    "url": "https://plasinca.com/",
+    "telephone": "(+593) 4-2114-457",
     "sameAs": [
-      "https://www.facebook.com/Volrisk", 
-      "https://www.instagram.com/volriskactuarios/",
-      "https://www.linkedin.com/company/volrisk-consultores-actuariales-cia-ltda-/"
+      "https://www.linkedin.com/company/plasinca/", 
+      "https://www.instagram.com/plasinca.ec/"
     ],
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Av. 6 de Diciembre N33-382 y Av. Eloy Alfaro Edificio Ziza Oficina 703. Quito - Ecuador",
-      "addressLocality": "Quito",
-      "addressRegion": "Pichincha",
+      "streetAddress": "Km 10.5 vía a Daule. Guayaquil - Ecuador",
+      "addressLocality": "Guayaquil",
+      "addressRegion": "Guayas",
       "addressCountry": "Ecuador"
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -0.18643682863655722,
-      "longitude": -78.47927147382707
+      "latitude": -2.1096269176539475,
+      "longitude": -79.93480518650706
     },
     "openingHoursSpecification": [
       {

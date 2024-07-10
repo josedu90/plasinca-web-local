@@ -1,9 +1,9 @@
 {
-  "url": "fundas-naturales-especiales",
+  "url": "plasticos-especiales",
   "seo": {
-    "title": "Fundas Naturales Esdpeciales",
-    "description": "",
-    "keywords": "",
+    "title": "Productos Plásticos Especiales | Plasinca",
+    "description": "Descubra nuestra línea de productos plásticos especiales en Plasinca. Ofrecemos soluciones personalizadas y de alta calidad para diversas aplicaciones en Ecuador. ¡Solicite más información!",
+    "keywords": "productos plásticos especiales, soluciones plásticas, polietileno, Ecuador, plásticos personalizados",
     "imageSocial": {
       "src": "/images/productos/especiales-funda-pollos.png",
       "alt": "",
@@ -19,7 +19,7 @@
     "title": ""
   },
   "name": "Productos Plásticos Especiales",
-  "txt": "¡PLASINCA un producto plástico ecuatoriano de calidad! Encuentra productos de plásticos especiales para obtener un empaquetado con aplicativos exclusivos para tu industria.",
+  "txt": "¡PLASINCA un producto plástico ecuatoriano de calidad! Encuentra <h1>productos de plásticos especiales</h1> para obtener un empaquetado con aplicativos exclusivos para tu industria.",
   "options": [
     {
       "title": "Mandiles",
@@ -190,5 +190,5 @@
       ]
     }
   ],
-  "contact": "Fabricamos productos plásticos especiales con nuestro departamento de Desarrollo Técnico, <span>obteniendo empaques seguros y duraderos</span>."
+  "contact": "Fabricamos productos plásticos especiales con nuestro departamento de Desarrollo Técnico, <span>obteniendo <h4>empaques seguros</h4> y duraderos</span>."
 }

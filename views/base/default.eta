@@ -27,6 +27,6 @@
 
   <%~ await includeFile('./body/bottomScripts') %>
   <%~ it?.getBodyEndScripts() %>
-  <script src="https://www.google.com/recaptcha/api.js?render=6Les8fEiAAAAAPFAurHKgqAOIsxgmcesG2FeQpJN"></script>
+  <% /* <script src="https://www.google.com/recaptcha/api.js?render=6Les8fEiAAAAAPFAurHKgqAOIsxgmcesG2FeQpJN"></script> */ %>
 </body>
 </html>

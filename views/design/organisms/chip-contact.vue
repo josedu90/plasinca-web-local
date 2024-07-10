@@ -11,7 +11,7 @@ const { contact } = cms.$settings.common;
         <div class="pre-title" v-html="contact?.pretitle" />
         <div class="title" v-html="contact?.title" />
         <div class="flex flex-wrap gap-3 justify-center">
-          <AtomsButton v-for="(item, i) in contact.btns" :key="i" :data-dialog-id="`dialog-overlay-${i + 2}`" class="open-dialog">
+          <AtomsButton v-for="(item, i) in contact.btns" :key="i" :data-dialog-id="`dialog-overlay-${i + 2}`" class="open-dialog" data-aos="animate__fadeInUp" :data-aos-delay="`${i}00`">
             <MoleculesBtnTxtIcon class="blue flex-row-reverse" :data="item" />
           </AtomsButton>
         </div>

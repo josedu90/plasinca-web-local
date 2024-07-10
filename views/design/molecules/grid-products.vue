@@ -14,7 +14,7 @@ products.forEach((item: { link?: any; slug: any }) => {
 <template>
   <section class="grid-products">
     <div class="grid md:grid-cols-3 gap-2 gap-y-8 mt-20">
-      <MoleculesCardProduct v-for="(item, i) in products" :key="i" :data="item" />
+      <MoleculesCardProduct v-for="(item, i) in products" :key="i" :data="item" data-aos="animate__fadeInDown" :data-aos-delay="`${i}00`" />
     </div>
   </section>
 </template>

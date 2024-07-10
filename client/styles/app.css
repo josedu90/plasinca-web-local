@@ -1,6 +1,7 @@
 @import './atoms.css';
 @import './molecules.css';
 @import './organismos.css';
+@import 'animate.css';
 
 /* @font-face {
   font-family: "bold";
@@ -8,7 +9,7 @@
 } */
 
 html, body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 body{
@@ -26,4 +27,20 @@ h1, h2, h3, h4, h5, h6{
 
 * {
   transition: transform 0.8s ease-out;
+}
+
+#error{
+  p a{
+    @apply text-primary underline;
+  }
+}
+
+/* Aos */
+[data-aos] {
+  visibility: hidden;
+}
+
+[data-aos].animate__animated, [data-aos="animate__pulse"] {
+  visibility: visible;
+  pointer-events: auto;
 }

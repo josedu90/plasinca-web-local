@@ -1,9 +1,18 @@
 <!-- Netlify cms redirect -->
+
 <% if(it?.page?.name==='home'){%>
 <script>
-      if (location.hash && (location.hash.includes('invite_token') || location.hash.includes('recovery'))) {
+      if (location.hash && (location.hash.includes('invite_token') || location.hash.includes('recovery') || location.hash.includes('access_token'))) {
         // Guard to redirect
-        location.href = `/cms/es-ec/app${location.hash}`;
+        location.href = `/cms/v2/${location.hash}`;
       }
 </script>
 <% }%>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TS43K75P');</script>
+<!-- End Google Tag Manager -->

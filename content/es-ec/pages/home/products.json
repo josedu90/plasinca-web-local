@@ -1,12 +1,7 @@
 {
   "title": "Nuestros Productos",
-  "txt": "Visualiza y solicita cotización de aplicaciones personalizadas, como rollos y fundas, en nuestra empresa somos fabricantes de plásticos en Ecuador.",
+  "txt": "Visualiza y solicita <h2>cotización de aplicaciones personalizadas</h2>, como rollos y fundas, en nuestra empresa somos fabricantes de plásticos en Ecuador.",
   "btn": {
-    "txt": "Personaliza tu pedido",
-    "link": {
-      "url": "products",
-      "type": "mk",
-      "blank": false
-    }
+    "txt": "Personaliza tu pedido"
   }
 }

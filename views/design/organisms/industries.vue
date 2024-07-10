@@ -16,7 +16,7 @@ defineProps({
       <div class="w-10/12 mx-auto">
         <div class="title relative" v-html="data?.title" />
         <div class="grid md:grid-cols-5 grid-cols-2 gap-5 mt-20">
-          <div v-for="(item, i) in data?.items" :key="i" :data="item" class="mb-5">
+          <div v-for="(item, i) in data?.items" :key="i" :data="item" class="mb-5" data-aos="animate__fadeInDown" :data-aos-delay="`${i}00`">
             <mk-picture e-width="150" e-height="150" class="mx-auto block" :src="item?.image.src" :alt="item?.image.alt" :title="item?.image.title" />
             <div class="txt" v-html="item.txt" />
           </div>

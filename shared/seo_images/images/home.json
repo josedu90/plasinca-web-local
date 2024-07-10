@@ -1,0 +1,112 @@
+{
+  "adorno1.png": {
+    "name": "rollo-plastico-natural",
+    "alt": "Rollo de plástico natural",
+    "title": "Rollo de plástico natural de alta calidad"
+  },
+  "adorno2.png": {
+    "name": "fundas-polietileno-pigmentadas",
+    "alt": "Fundas de polietileno pigmentadas",
+    "title": "Fundas de polietileno pigmentadas para empaque"
+  },
+  "adorno3.png": {
+    "name": "polietileno-alta-densidad",
+    "alt": "Polietileno de alta densidad",
+    "title": "Polietileno de alta densidad para aplicaciones industriales"
+  },
+  "adorno4.png": {
+    "name": "bolsas-polipropileno",
+    "alt": "Bolsas de polipropileno",
+    "title": "Bolsas de polipropileno duraderas"
+  },
+  "ahorro-pack.png": {
+    "name": "embalajes-plasticos",
+    "alt": "Embalajes plásticos",
+    "title": "Embalajes plásticos resistentes y duraderos"
+  },
+  "certificaciones.png": {
+    "name": "bolsas-polietileno",
+    "alt": "Bolsas de polietileno",
+    "title": "Bolsas de polietileno para empaque seguro"
+  },
+  "chicken-farm.png": {
+    "name": "productos-plasticos-especiales",
+    "alt": "Productos plásticos especiales",
+    "title": "Productos plásticos especiales personalizados"
+  },
+  "dona1-cover.png": {
+    "name": "rollo-polietileno",
+    "alt": "Rollo de polietileno",
+    "title": "Rollo de polietileno para empaque"
+  },
+  "dona1-cover.svg": {
+    "name": "fundas-plasticas-transparentes",
+    "alt": "Fundas plásticas transparentes",
+    "title": "Fundas plásticas transparentes para empaque seguro"
+  },
+  "donaB.png": {
+    "name": "empaques-flexibles",
+    "alt": "Empaques flexibles",
+    "title": "Empaques flexibles de alta calidad"
+  },
+  "donaB.svg": {
+    "name": "bolsa-polipropileno",
+    "alt": "Bolsa de polipropileno",
+    "title": "Bolsa de polipropileno para empaque"
+  },
+  "donaC.png": {
+    "name": "rollo-plastico-pigmentado",
+    "alt": "Rollo de plástico pigmentado",
+    "title": "Rollo de plástico pigmentado para empaque"
+  },
+  "donaCvector.svg": {
+    "name": "envases-polietileno",
+    "alt": "Envases de polietileno",
+    "title": "Envases de polietileno para almacenamiento seguro"
+  },
+  "donaD.png": {
+    "name": "film-polietileno",
+    "alt": "Film de polietileno",
+    "title": "Film de polietileno para empaque"
+  },
+  "donaDvector.svg": {
+    "name": "termoencogible-plastico",
+    "alt": "Plástico termoencogible",
+    "title": "Plástico termoencogible para embalaje"
+  },
+  "flag-left.png": {
+    "name": "fundas-plasticas-personalizadas",
+    "alt": "Fundas plásticas personalizadas",
+    "title": "Fundas plásticas personalizadas para negocios"
+  },
+  "flag-right.png": {
+    "name": "fabrica-fundas-plasticas",
+    "alt": "Fábrica de fundas plásticas",
+    "title": "Fábrica de fundas plásticas de alta calidad"
+  },
+  "fundas-naturales-o-pigmentadas.png": {
+    "name": "embalaje-polipropileno",
+    "alt": "Embalaje de polipropileno",
+    "title": "Embalaje de polipropileno para empaque seguro"
+  },
+  "guandungo.png": {
+    "name": "bolsas-plasticas",
+    "alt": "Bolsas plásticas",
+    "title": "Bolsas plásticas duraderas para múltiples usos"
+  },
+  "packshot-home-provisional.png": {
+    "name": "fundas-polietileno-reciclado",
+    "alt": "Fundas de polietileno reciclado",
+    "title": "Fundas de polietileno reciclado ecológicas"
+  },
+  "productos-plasticos-especiales.png": {
+    "name": "productos-plasticos-industriales",
+    "alt": "Productos plásticos industriales",
+    "title": "Productos plásticos industriales de alta calidad"
+  },
+  "rolos-naturales-o-pigmentados.png": {
+    "name": "empaques-plastico-biodegradable",
+    "alt": "Empaques de plástico biodegradable",
+    "title": "Empaques de plástico biodegradable"
+  }
+}

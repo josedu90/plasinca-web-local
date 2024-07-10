@@ -27,16 +27,26 @@ async function convertToBase64(file: File) {
   return r.split(',')[1];
 }
 
+// Función para reemplazar comas por puntos
+function reemplazarComasPorPuntos(valor: string | number) {
+  return valor.replace(',', '.');
+}
+
 function convertirAPulgadas(valor: number, unidad: any) {
+  // Reemplaza las comas por puntos
+  valor = reemplazarComasPorPuntos(valor);
+
+  // Convierte el valor a número
+  const valorNumerico = parseFloat(valor);
+
+  // Realiza la conversión según la unidad
   switch (unidad) {
     case 'cm':
-      return valor * 0.393701;
+      return valorNumerico / 2.54; // 1 pulgada = 2.54 cm
     case 'mm':
-      return valor * 0.0393701;
-    case 'in':
-      return valor;
+      return valorNumerico / 25.4; // 1 pulgada = 25.4 mm
     default:
-      return valor;
+      return valorNumerico; // Asume que ya está en pulgadas
   }
 }
 

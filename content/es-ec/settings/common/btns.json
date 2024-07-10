@@ -14,9 +14,9 @@
       "title": ""
     },
     "link": {
-      "url": "#",
+      "url": "https://api.whatsapp.com/send?phone=593985801893",
       "type": "a",
-      "blank": false
+      "blank": true
     }
   }
 }

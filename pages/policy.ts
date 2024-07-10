@@ -6,7 +6,7 @@ export default definePage({
   },
   locales: {
     'es-ec': {
-      url: '/policy',
+      url: '/politica-de-proteccion-de-datos',
       seo: async ({ locale }) => {
         const seo = await queryContent(`${locale.code}/pages/policy/seo`).fetch();
         return {

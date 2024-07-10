@@ -6,7 +6,7 @@ export default definePage({
   },
   locales: {
     'es-ec': {
-      url: '/talent',
+      url: '/talento-humano',
       seo: async ({ locale }) => {
         const seo = await queryContent(`${locale.code}/pages/talent/seo`).fetch();
         return {

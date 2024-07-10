@@ -16,7 +16,7 @@ const { cover, history, certifications, downloads } = cms.$page;
         <MoleculesChipCertification :data="certifications" />
       </div>
       <div class="xl:w-10/12 w-full mx-auto grid lg:grid-cols-4 md:grid-cols-2 gap-10 py-20">
-        <MoleculesCardDownload v-for="(item, i) in downloads.items" :key="i" :data="item" />
+        <MoleculesCardDownload v-for="(item, i) in downloads.items" :key="i" :data="item" data-aos="animate__fadeInUp" :data-aos-delay="`${i}00`" />
       </div>
     </div>
     <OrganismsTestimonials class="relative z-10" />

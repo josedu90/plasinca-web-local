@@ -17,7 +17,7 @@ defineProps({
         <AtomsButton :data="data?.btn.link" class="mx-auto w-fit my-12">
           <MoleculesBtn :data="data?.btn" />
         </AtomsButton>
-        <mk-picture e-width="351" e-height="89" :src="data?.certifications.src" :alt="data?.certifications.alt" :title="data?.certifications.title" />
+        <mk-picture data-aos="animate__fadeInUp" e-width="351" e-height="89" :src="data?.certifications.src" :alt="data?.certifications.alt" :title="data?.certifications.title" />
       </div>
       <mk-picture data-rellax-axis="x" data-rellax-speed="-0.2" e-width="151" e-height="417" class="absolute bottom-0 -right-10 rellax" :src="data?.flagright.src" :alt="data?.flagright.alt" :title="data?.flagright.title" />
     </div>

@@ -1,9 +1,9 @@
 {
-  "url": "rollos-naturales",
+  "url": "rollos-naturales-pigmentados",
   "seo": {
-    "title": "Rollos Naturales",
-    "description": "",
-    "keywords": "",
+    "title": "Rollos de Plástico Naturales o Pigmentados | Plasinca",
+    "description": "Ofrecemos rollos de plástico naturales o pigmentados de alta calidad en Plasinca. Ideales para diversas aplicaciones industriales en Ecuador. ¡Obtenga una cotización ahora!",
+    "keywords": "rollos de plástico, plástico pigmentado, polietileno, rollos naturales, Ecuador",
     "imageSocial": {
       "src": "/images/productos/rollos-termo-impresion.png",
       "alt": "",
@@ -19,7 +19,7 @@
     "title": ""
   },
   "name": "Rollos Naturales o pigmentados (color)",
-  "txt": "Te ofrecemos una amplia gama de plásticos ecuatorianos en rollos naturales o pigmentados para personalizar tus empaques plásticos.",
+  "txt": "Te ofrecemos una amplia gama de <h1>plásticos ecuatorianos</h1> en <h2>rollos naturales o pigmentados</h2> para personalizar tus <h2>empaques plásticos</h2>.",
   "options": [
     {
       "title": "Termoencogibles sin impresión o impresos hasta 8 colores",
@@ -189,5 +189,5 @@
       ]
     }
   ],
-  "contact": "<span>Haz que tu marca se conozca en todo el mundo de la forma correcta.</span> Imprime tu marca y personaliza tus fundas y empaques plásticos."
+  "contact": "<span>Haz que tu marca se conozca en todo el mundo de la forma correcta.</span> Imprime tu marca y <h4>personaliza tus fundas</h4> y empaques plásticos."
 }

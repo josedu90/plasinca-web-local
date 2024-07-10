@@ -13,7 +13,7 @@ defineProps({
     <div class="container mx-auto relative z-20">
       <div class="xl:w-10/12 w-full mx-auto">
         <div class="flex flex-wrap justify-center items-stretch py-20">
-          <div v-for="(item, i) in data?.items" :key="i" class="lg:w-3/12 md:w-4/12 w-full p-3">
+          <div v-for="(item, i) in data?.items" :key="i" class="lg:w-3/12 md:w-4/12 w-full p-3" data-aos="animate__fadeInDown" :data-aos-delay="`${i}00`">
             <MoleculesCardIndustrie :data="item" class="h-full" />
           </div>
         </div>

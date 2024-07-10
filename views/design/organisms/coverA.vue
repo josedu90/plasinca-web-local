@@ -15,7 +15,7 @@ defineProps({
           <mk-picture data-rellax-axis="x" data-rellax-speed="-0.2" e-width="229" e-height="512" class="mx-auto relative z-20 rellax" :src="data?.image.src" :alt="data?.image.alt" :title="data?.image.title" />
         </div>
         <div class="md:w-8/12 w-full">
-          <div class="md:w-10/12 w-full mx-auto mb-10">
+          <div data-aos="animate__fadeInRight" class="md:w-10/12 w-full mx-auto mb-10">
             <div class="title" v-html="data?.title" />
             <div class="txt" v-html="data?.txt" />
           </div>

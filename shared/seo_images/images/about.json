@@ -1,0 +1,32 @@
+{
+  "certificaciones.png": {
+    "name": "fundas-plasticas-resellables",
+    "alt": "Fundas plásticas resellables",
+    "title": "Fundas plásticas resellables para almacenamiento"
+  },
+  "cover-productos.png": {
+    "name": "productos-polipropileno-reciclado",
+    "alt": "Productos de polipropileno reciclado",
+    "title": "Productos de polipropileno reciclado ecológicos"
+  },
+  "desarrollo-sostenible.png": {
+    "name": "fundas-plasticas-para-alimentos",
+    "alt": "Fundas plásticas para alimentos",
+    "title": "Fundas plásticas para alimentos seguros"
+  },
+  "licencia-ambiental.png": {
+    "name": "rollos-polietileno-baja-densidad",
+    "alt": "Rollos de polietileno de baja densidad",
+    "title": "Rollos de polietileno de baja densidad para empaque"
+  },
+  "politicasSIG.png": {
+    "name": "envases-plasticos-reutilizables",
+    "alt": "Envases plásticos reutilizables",
+    "title": "Envases plásticos reutilizables para almacenamiento"
+  },
+  "responsabilidad-social.png": {
+    "name": "embalaje-polietileno-flexible",
+    "alt": "Embalaje de polietileno flexible",
+    "title": "Embalaje de polietileno flexible para protección"
+  }
+}

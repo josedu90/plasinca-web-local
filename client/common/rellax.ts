@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   rellaxElementsX.forEach((element) => {
     const speed = element.getAttribute('data-rellax-speed');
-    window.addEventListener('scroll', () => {
+    window.addEventListener('scroll', (event) => {
+      event.preventDefault();
       const offset = window.scrollY;
       element.style.transform = `translateX(${speed * offset}px)`;
     });

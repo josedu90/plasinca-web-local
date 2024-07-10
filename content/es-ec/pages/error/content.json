@@ -1,0 +1,31 @@
+{
+  "title": "Error 404 - Página No Encontrada",
+  "txt": "Lo sentimos, la página que estás buscando no existe. Puede haber sido movida o eliminada.<br><br>Por favor, regresa a nuestra <a href=\"/\">página principal</a> o navega por nuestras secciones para encontrar lo que necesitas:",
+  "list": [
+    {
+      "txt": "Productos",
+      "link": {
+        "url": "products",
+        "type": "mk",
+        "blank": false
+      }
+    },
+    {
+      "txt": "Industria",
+      "link": {
+        "url": "industries",
+        "type": "mk",
+        "blank": false
+      }
+    },
+    {
+      "txt": "Contáctanos",
+      "link": {
+        "url": "contact",
+        "type": "mk",
+        "blank": false
+      }
+    }
+  ],
+  "btxt": "Si necesitas ayuda, no dudes en <a href=\"/contacto\">contactarnos</a>."
+}
