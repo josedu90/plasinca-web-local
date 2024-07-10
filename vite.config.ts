@@ -11,6 +11,15 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers';
 
 const input = {
   _default: resolve('./client/_default.ts'),
+  about: resolve('./client/about.ts'),
+  clients: resolve('./client/clients.ts'),
+  contact: resolve('./client/contact.ts'),
+  home: resolve('./client/home.ts'),
+  industries: resolve('./client/industries.ts'),
+  policy: resolve('./client/policy.ts'),
+  products: resolve('./client/products.ts'),
+  singleProducts: resolve('./client/singleProducts.ts'),
+  talent: resolve('./client/talent.ts'),
 };
 // https://vitejs.dev/config/
 export default defineConfig({
