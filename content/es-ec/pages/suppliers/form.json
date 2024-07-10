@@ -57,7 +57,7 @@
     {
       "type": "checkbox",
       "id": "policy",
-      "label": "Acepto las <a href=\"/policy\">políticas de privacidad</a>",
+      "label": "Acepto las <a href=\"/policy\" target=\"_blank\">políticas de privacidad</a>",
       "error": "Aceptar las políticas de privacidad",
       "rules": "required"
     }
