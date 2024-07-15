@@ -201,6 +201,13 @@
             "alt": "",
             "title": ""
           }
+        },
+        {
+          "image": {
+            "src": "/images/productos/fundas-larv-funda-art.png",
+            "alt": "",
+            "title": ""
+          }
         }
       ]
     },
@@ -219,12 +226,19 @@
             "alt": "",
             "title": ""
           }
+        },
+        {
+          "image": {
+            "src": "/images/productos/fundas-quint-adm.png",
+            "alt": "",
+            "title": ""
+          }
         }
       ]
     },
     {
       "title": "Fundas para banano impresa y sin impresión",
-      "txt": "Lorem ipsum.",
+      "txt": "Fundas para banano.",
       "image": {
         "src": "/images/productos/fundas-ban-banano.png",
         "alt": "",
@@ -256,7 +270,7 @@
     },
     {
       "title": "Fundas impresas",
-      "txt": "Lorem ipsum.",
+      "txt": "Fundas impresas.",
       "image": {
         "src": "/images/productos/fundas-impr-nappis.png",
         "alt": "",
@@ -295,7 +309,7 @@
     },
     {
       "title": "Fundas impresas para alimentos",
-      "txt": "Lorem ipsum.",
+      "txt": "Fundas impresas.",
       "image": {
         "src": "/images/productos/fundas-impr-ali-hamburguesa.png",
         "alt": "",

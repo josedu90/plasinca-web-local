@@ -32,12 +32,26 @@ function reemplazarComasPorPuntos(valor: string | number) {
   return valor.replace(',', '.');
 }
 
-function convertirAPulgadas(valor: number, unidad: any) {
-  // Reemplaza las comas por puntos
-  valor = reemplazarComasPorPuntos(valor);
+function convertirAPulgadas(valor: number, unidad: string) {
+  // Reemplaza las comas por puntos si valor es un string
+  if (typeof valor === 'string')
+    valor = reemplazarComasPorPuntos(valor);
 
   // Convierte el valor a número
   const valorNumerico = parseFloat(valor);
+
+  // Función para verificar si tiene 2 ceros o más después del punto
+  function tieneDosCerosDespuesDelPunto(numero: number): boolean {
+    const numeroString = numero.toString();
+    const posicionPunto = numeroString.indexOf('.');
+
+    if (posicionPunto === -1)
+      return false; // No tiene punto decimal
+
+    const caracteresDespuesDelPunto = numeroString.substr(posicionPunto + 1, 2);
+
+    return caracteresDespuesDelPunto === '00';
+  }
 
   // Realiza la conversión según la unidad
   switch (unidad) {
@@ -46,7 +60,47 @@ function convertirAPulgadas(valor: number, unidad: any) {
     case 'mm':
       return valorNumerico / 25.4; // 1 pulgada = 25.4 mm
     default:
-      return valorNumerico; // Asume que ya está en pulgadas
+      // Caso por default (asume que ya está en pulgadas)
+      if (tieneDosCerosDespuesDelPunto(valorNumerico))
+        return valorNumerico * 1000; // Multiplica por 1000 si tiene 2 ceros o más después del punto
+      else
+        return valorNumerico; // No realiza ninguna operación adicional
+  }
+}
+
+function convertirAPulgadasBut(valor: number, unidad: string) {
+  // Reemplaza las comas por puntos si valor es un string
+  if (typeof valor === 'string')
+    valor = reemplazarComasPorPuntos(valor);
+
+  // Convierte el valor a número
+  const valorNumerico = parseFloat(valor);
+
+  // Función para verificar si tiene 2 ceros o más después del punto
+  function tieneDosCerosDespuesDelPunto(numero: number): boolean {
+    const numeroString = numero.toString();
+    const posicionPunto = numeroString.indexOf('.');
+
+    if (posicionPunto === -1)
+      return false; // No tiene punto decimal
+
+    const caracteresDespuesDelPunto = numeroString.substr(posicionPunto + 1, 2);
+
+    return caracteresDespuesDelPunto === '00';
+  }
+
+  // Realiza la conversión según la unidad
+  switch (unidad) {
+    case 'cm':
+      return valorNumerico / 25.4; // 1 pulgada = 2.54 cm
+    case 'mm':
+      return valorNumerico / 25.4; // 1 pulgada = 2.54 cm
+    default:
+      // Caso por default (asume que ya está en pulgadas)
+      if (tieneDosCerosDespuesDelPunto(valorNumerico))
+        return valorNumerico * 1000; // Multiplica por 1000 si tiene 2 ceros o más después del punto
+      else
+        return valorNumerico; // No realiza ninguna operación adicional
   }
 }
 
@@ -85,7 +139,7 @@ function createSingleForm() {
       async calculateUnits() {
         const anchoEnPulgadas = convertirAPulgadas(_state.values.width, _state.values.unidad);
         const largoEnPulgadas = convertirAPulgadas(_state.values.large, _state.values.unidad);
-        const espesorEnPulgadas = convertirAPulgadas(_state.values.thickness, _state.values.unidad) * 1000;
+        const espesorEnPulgadas = convertirAPulgadasBut(_state.values.thickness, _state.values.unidad);
         // Realiza el cálculo necesario aquí. Por ejemplo, multiplicamos los valores.
         const resultado = (anchoEnPulgadas * largoEnPulgadas * espesorEnPulgadas) / 33;
         _state.values.units = Math.ceil((300000 / resultado) / 1000) * 1000;
