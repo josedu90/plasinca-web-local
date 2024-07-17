@@ -19,7 +19,7 @@
     "title": ""
   },
   "name": "Rollos Naturales o pigmentados (color)",
-  "txt": "Te ofrecemos una amplia gama de <h1>plásticos ecuatorianos</h1> en <h2>rollos naturales o pigmentados</h2> para personalizar tus <h2>empaques plásticos</h2>.",
+  "txt": "Te ofrecemos una amplia gama de <h1>plásticos</h1> en <h2>rollos naturales o pigmentados</h2> para personalizar tus <h2>empaques plásticos</h2>.",
   "options": [
     {
       "title": "Termoencogibles sin impresión o impresos hasta 8 colores",
@@ -154,7 +154,7 @@
     },
     {
       "title": "Rollos Perforados",
-      "txt": "Es una lámina que lleva perforaciones con el fin de que exista salida de aire y no se quede atrapado dentro de la funda.",
+      "txt": "Es una lámina que lleva perforaciones con el fin de vaciar el aire atrapado",
       "image": {
         "src": "/images/productos/rollos-perf-perforado.png",
         "alt": "",
@@ -189,5 +189,5 @@
       ]
     }
   ],
-  "contact": "<span>Haz que tu marca se conozca en todo el mundo de la forma correcta.</span> Imprime tu marca y <h4>personaliza tus fundas</h4> y empaques plásticos."
+  "contact": "<h4>Personaliza tus fundas</h4> y empaques plásticos, imprime tu marca y <span>haz que se conozca en todo el mundo.</span>"
 }

@@ -21,9 +21,9 @@
       "submenu": false
     },
     {
-      "txt": "Clientes",
+      "txt": "Somos",
       "link": {
-        "url": "clients",
+        "url": "about",
         "type": "mk",
         "blank": false
       },
@@ -31,9 +31,9 @@
       "submenu": false
     },
     {
-      "txt": "Somos",
+      "txt": "Clientes",
       "link": {
-        "url": "about",
+        "url": "clients",
         "type": "mk",
         "blank": false
       },

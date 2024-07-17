@@ -10,7 +10,7 @@ defineProps({
   <div class="subproduct-slider flex flex-wrap items-center justify-between">
     <div class="info md:w-5/12 w-full">
       <div class="title" v-html="data?.title" />
-      <div class="txt" v-html="data?.txt" />
+      <div class="txt text-justify" v-html="data?.txt" />
     </div>
     <div class="carousel md:w-6/12 w-full" data-interval="2000">
       <div class="carousel-inner">
