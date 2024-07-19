@@ -285,8 +285,13 @@
         .title{
             @apply leading-5 text-[1.6rem] font-medium pb-5;
         }
+        form{
+            label{
+                @apply ml-0;
+            }
+        }
         button{
-            @apply block bg-primary text-white rounded-[5px] px-5 py-1 my-2 first:!mt-5;
+            @apply bg-primary text-white rounded-[5px] px-5 py-1 mt-5;
         }
     }
 }

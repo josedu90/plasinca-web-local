@@ -1,3 +1,6 @@
-/proxy-auth/* /.netlify/functions/auth 200
-/proxy-lead/* /.netlify/functions/lead 200
 /sendinformation.ts https://n8n.apps.monkeyplus.cloud/webhook/9e16eb98-5470-4083-a962-7aac4e51e9e5 200!
+/plasinca /quienes-somos 200!
+/wp-content/uploads/2021/02/politica-ssig.pdf /politica-de-proteccion-de-datos 200!
+/wp-content/uploads/2020/07/catalogo-productos-plasinca-2020.pdf /productos 200!
+/wp-content/uploads/2020/07/catalogo-corporativo-2020-plasinca.pdf /prodcutos 200!
+/wp-content/uploads/2018/07/catalogo-corporativo-plasinca-2018-ilovepdf-compressed-1.pdf /productos 200!

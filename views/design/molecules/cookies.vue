@@ -14,7 +14,7 @@ const { cookies } = cms.$settings.common;
           {{ cookies.txt }}
         </div>
 
-        <div class=" flex gap-4">
+        <div class="flex gap-4 flex-wrap">
           <MoleculesBtn id="customize" class="cursor-pointer" :data="cookies.btns[0]" />
           <MoleculesBtn id="accept-all" class="cursor-pointer" :data="cookies.btns[1]" />
           <MoleculesBtn id="reject-all" class="cursor-pointer" :data="cookies.btns[2]" />

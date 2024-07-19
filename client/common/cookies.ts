@@ -5,6 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const customizeButton = document.getElementById('customize');
   const rejectAllButton = document.getElementById('reject-all');
   const savePreferencesButton = document.getElementById('save-preferences');
+  const customizeAcceptAllButton = document.getElementById('customize-accept-all');
+  const customizeRejectAllButton = document.getElementById('customize-reject-all');
   const cookieForm = document.getElementById('cookie-form');
 
   // Verificar si ya hay consentimiento guardado
@@ -51,6 +53,27 @@ document.addEventListener('DOMContentLoaded', () => {
     loadScriptsBasedOnPreferences();
   });
 
+  customizeAcceptAllButton.addEventListener('click', () => {
+    setCookiePreferences({
+      essential: true,
+      analytics: true,
+      marketing: true,
+      personalization: true,
+    });
+    cookieCustomizationDialog.style.display = 'none';
+    loadScriptsBasedOnPreferences();
+  });
+
+  customizeRejectAllButton.addEventListener('click', () => {
+    setCookiePreferences({
+      essential: true,
+      analytics: false,
+      marketing: false,
+      personalization: false,
+    });
+    cookieCustomizationDialog.style.display = 'none';
+  });
+
   function setCookiePreferences(preferences) {
     localStorage.setItem('cookie-preferences', JSON.stringify(preferences));
     localStorage.setItem('cookie-consent', 'true');
@@ -64,10 +87,17 @@ document.addEventListener('DOMContentLoaded', () => {
   function loadScriptsBasedOnPreferences() {
     const preferences = getCookiePreferences();
     if (preferences) {
+      if (preferences.essential) {
+        // pixeles esenciales
+      }
       if (preferences.analytics)
         loadGoogleTagManager();
-
-      // Load other scripts based on preferences
+      if (preferences.marketing) {
+        // pixeles marketing
+      }
+      if (preferences.personalization) {
+        // pixeles para personalización
+      }
     }
   }
 
@@ -75,11 +105,11 @@ document.addEventListener('DOMContentLoaded', () => {
     (function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
         'gtm.start':
-      new Date().getTime(),
+    new Date().getTime(),
         'event': 'gtm.js',
       }); const f = d.getElementsByTagName(s)[0];
       const j = d.createElement(s); const dl = l != 'dataLayer' ? `&l=${l}` : ''; j.async = true; j.src
-      = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX'); // Reemplaza GTM-XXXXXX con tu ID de GTM
+    = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-TS43K75P'); // Reemplaza GTM-XXXXXX con tu ID de GTM
   }
 });
