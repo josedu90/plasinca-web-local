@@ -264,3 +264,29 @@
         }
     }
 }
+
+.cookies{
+    @apply fixed top-0 left-0 z-[120] w-full h-full bg-gray-900 bg-opacity-50 hidden items-end pb-5;
+    .card{
+        @apply bg-white w-full p-6 text-dark-100 rounded-[15px];
+        .title{
+            @apply leading-5 text-[1.6rem] font-medium py-5;
+        }
+        .txt{
+            @apply leading-5 text-[1.2rem] font-normal pb-5;
+        }
+    }
+}
+
+.cookie-customization-dialog{
+    @apply fixed top-0 left-0 z-[120] w-full h-full bg-gray-900 bg-opacity-50 items-center justify-center pb-5;
+    .cookie-consent-content{
+        @apply bg-white rounded-[15px] p-10;
+        .title{
+            @apply leading-5 text-[1.6rem] font-medium pb-5;
+        }
+        button{
+            @apply block bg-primary text-white rounded-[5px] px-5 py-1 my-2 first:!mt-5;
+        }
+    }
+}

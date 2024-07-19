@@ -204,6 +204,21 @@ export default defineCmsCollection({
               }),
             },
           }),
+          cookies: collections.file(
+            {
+              label: 'Cookies',
+              fields: {
+                title: widgets.string({ label: 'Título' }),
+                txt: widgets.markdown({ label: 'Texto' }),
+                btns: widgets.list({
+                  label: 'Botones',
+                  fields: {
+                    txt: widgets.string({ label: 'Texto', required: true }),
+                  },
+                }),
+              },
+            },
+          ),
         },
       },
     );

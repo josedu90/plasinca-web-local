@@ -1,0 +1,37 @@
+{
+  "title": "Valoramos tu privacidad",
+  "txt": "Usamos cookies para mejorar la experiencia de navegación, mostrarle contenido o anuncios personalizados y analaizar nuestro tráfico. Al hacerl clic en \"Aceptar todo\" usted da consentimiento a nuestro uso de las cookies.",
+  "custome": "Personalizar Cookies",
+  "inputs": [
+    {
+      "label": "Esenciales",
+      "value": "essential"
+    },
+    {
+      "label": "Analíticas",
+      "value": "analytics"
+    },
+    {
+      "label": "Marketing",
+      "value": "marketing"
+    },
+    {
+      "label": "Personalización",
+      "value": "personalization"
+    }
+  ],
+  "btns": [
+    {
+      "txt": "Personalizar"
+    },
+    {
+      "txt": "Aceptar todo"
+    },
+    {
+      "txt": "Rechazar"
+    },
+    {
+      "txt": "Guardar"
+    }
+  ]
+}

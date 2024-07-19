@@ -8,6 +8,8 @@
   <% vue} %>
   <%~ it.body%>
   <%{vue%>
+    <molecules-cookies />
+    <molecules-cookies-dialog />
     <molecules-btn-whatsapp />
     <organisms-footer/>
   <% vue} %>
