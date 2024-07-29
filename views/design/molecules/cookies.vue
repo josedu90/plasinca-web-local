@@ -10,10 +10,7 @@ const { cookies } = cms.$settings.common;
         <div class="title">
           {{ cookies.title }}
         </div>
-        <div class="txt">
-          {{ cookies.txt }}
-        </div>
-
+        <div class="txt" v-html="cookies.txt" />
         <div class="flex gap-4 flex-wrap">
           <MoleculesBtn id="customize" class="cursor-pointer" :data="cookies.btns[0]" />
           <MoleculesBtn id="accept-all" class="cursor-pointer" :data="cookies.btns[1]" />

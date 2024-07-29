@@ -274,6 +274,9 @@
         }
         .txt{
             @apply leading-5 text-[1.2rem] font-normal pb-5;
+            a{
+                @apply underline text-blue-100;
+            }
         }
     }
 }
@@ -283,7 +286,13 @@
     .cookie-consent-content{
         @apply bg-white rounded-[15px] p-10;
         .title{
-            @apply leading-5 text-[1.6rem] font-medium pb-5;
+            @apply leading-5 text-[1.6rem] font-medium mb-2;
+        }
+        .txt{
+            @apply leading-5 text-[1.2rem] font-normal mt-3;
+            a{
+                @apply underline text-blue-100;
+            }
         }
         form{
             label{

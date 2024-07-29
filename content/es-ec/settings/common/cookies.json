@@ -1,6 +1,7 @@
 {
   "title": "Valoramos tu privacidad",
-  "txt": "Usamos cookies para mejorar la experiencia de navegación, mostrarle contenido o anuncios personalizados y analaizar nuestro tráfico. Al hacerl clic en \"Aceptar todo\" usted da consentimiento a nuestro uso de las cookies.",
+  "txt": "Usamos cookies para mejorar la experiencia de navegación, mostrarle contenido o anuncios personalizados y analaizar nuestro tráfico. Al hacerl clic en \"Aceptar todo\" usted acepta nuestra <a href=\"/politica-de-proteccion-de-datos\" target=\"_blank\">política de protección de datos personales y privacidad</a>.",
+  "policy": "<a href=\"/politica-de-proteccion-de-datos\" target=\"_blank\">Política de protección de datos personales y privacidad</a>.",
   "custome": "Personalizar Cookies",
   "inputs": [
     {

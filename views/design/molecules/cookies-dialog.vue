@@ -20,6 +20,7 @@ const { cookies } = cms.$settings.common;
           <button id="customize-reject-all" v-html="cookies.btns[2].txt" />
         </div>
       </form>
+      <div class="txt" v-html="cookies.policy" />
     </div>
   </div>
 </template>

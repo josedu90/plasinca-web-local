@@ -7,9 +7,13 @@
     <OrganismsOverlayFormCompany />
   <% vue} %>
   <%~ it.body%>
+  <% if(it?.page?.name!='policy'){%>
   <%{vue%>
     <molecules-cookies />
     <molecules-cookies-dialog />
+  <% vue} %>
+  <% }%>
+  <%{vue%>
     <molecules-btn-whatsapp />
     <organisms-footer/>
   <% vue} %>
