@@ -210,6 +210,14 @@ export default defineCmsCollection({
               fields: {
                 title: widgets.string({ label: 'Título' }),
                 txt: widgets.markdown({ label: 'Texto' }),
+                custome: widgets.string({ label: 'Título para personalizar cookies' }),
+                inputs: widgets.list({
+                  label: 'Inputs para personalizar cookies',
+                  fields: {
+                    label: widgets.string({ label: 'Texto', required: true }),
+                    value: widgets.string({ label: 'Valor', required: true, hint: 'Todo en minúsculas y sin espacios' }),
+                  },
+                }),
                 btns: widgets.list({
                   label: 'Botones',
                   fields: {
