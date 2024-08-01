@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentIndex = 0;
     const totalSlides = slides.length;
     const intervalTime = parseInt(carousel.getAttribute('data-interval')) || 5000;
+    let autoSlide;
+    let isHovered = false;
 
     // Function to update carousel position
     function updateCarousel() {
@@ -26,17 +28,39 @@ document.addEventListener('DOMContentLoaded', () => {
       updateCarousel();
     }
 
-    // Auto advance the carousel
-    let autoSlide = setInterval(nextSlide, intervalTime);
+    // Function to start the auto sliding
+    function startAutoSlide() {
+      autoSlide = setInterval(nextSlide, intervalTime);
+    }
+
+    // Function to stop the auto sliding
+    function stopAutoSlide() {
+      clearInterval(autoSlide);
+    }
+
+    // Auto advance the carousel initially
+    startAutoSlide();
+
+    // Stop carousel on mouse enter and resume on mouse leave
+    carousel.addEventListener('mouseenter', () => {
+      stopAutoSlide();
+      isHovered = true;
+    });
+
+    carousel.addEventListener('mouseleave', () => {
+      isHovered = false;
+      startAutoSlide();
+    });
 
     // Logo control
     logos.forEach((logo) => {
       const index = parseInt(logo.getAttribute('data-index'));
       logo.addEventListener('click', () => {
-        clearInterval(autoSlide); // Stop auto advance
+        stopAutoSlide(); // Stop auto advance
         currentIndex = index;
         updateCarousel();
-        autoSlide = setInterval(nextSlide, intervalTime); // Restart auto advance
+        if (!isHovered)
+          startAutoSlide(); // Restart auto advance only if not paused by mouse enter
       });
     });
 

@@ -13,7 +13,7 @@ defineProps({
         <mk-picture e-width="35" e-height="35" src="/images/iconos/calendar-outline.png" alt="" title="" />
         <p class="year" v-html="data?.year" />
       </div>
-      <div class="txt text-justify" v-html="data?.txt" />
+      <div class="txt " v-html="data?.txt" />
     </div>
   </section>
 </template>

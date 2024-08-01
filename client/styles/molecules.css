@@ -65,7 +65,7 @@
         }
     }
     &-whatsapp{
-        @apply fixed bottom-5 right-5 z-[100];
+        @apply fixed lg:bottom-[70px] bottom-5 right-5 z-[100];
     }
 }
 

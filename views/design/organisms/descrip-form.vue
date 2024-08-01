@@ -11,7 +11,7 @@ defineProps({
     <div class="container mx-auto">
       <div class="flex flex-wrap items-center">
         <div class="xl:basis-1/3 md:basis-1/2 xl:ml-20 px-2 md:my-0 my-5">
-          <div class="txt text-justify" v-html="data?.txt" />
+          <div class="txt " v-html="data?.txt" />
         </div>
         <div class="xl:basis-1/3 md:basis-1/2 xl:ml-12 px-2">
           <div class="box">
