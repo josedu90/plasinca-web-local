@@ -24,6 +24,18 @@
         "type": "a",
         "blank": true
       }
+    },
+    {
+      "icon": {
+        "src": "/images/iconos/facebook-footer.png",
+        "alt": "",
+        "title": ""
+      },
+      "link": {
+        "url": "https://www.facebook.com/Plasinca",
+        "type": "a",
+        "blank": true
+      }
     }
   ]
 }
