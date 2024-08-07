@@ -151,7 +151,7 @@ function createSingleForm() {
 
         this.spinner = true;
 
-        const url = '/sendinformation.ts';
+        const url = 'https://n8n-redirects.netlify.app/sendinformation.ts';
 
         const formData = { ..._state.values };
 

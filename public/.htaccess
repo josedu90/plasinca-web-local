@@ -1,9 +1,16 @@
 RewriteEngine On
 
 # Redirects
-RewriteRule ^sendinformation\.ts$ https://n8n.apps.monkeyplus.cloud/webhook/9e16eb98-5470-4083-a962-7aac4e51e9e5 [R=301,L]
 RewriteRule ^plasinca$ /quienes-somos [R=301,L]
 RewriteRule ^wp-content/uploads/2021/02/politica-ssig\.pdf$ /politica-de-proteccion-de-datos [R=301,L]
 RewriteRule ^wp-content/uploads/2020/07/catalogo-productos-plasinca-2020\.pdf$ /productos [R=301,L]
 RewriteRule ^wp-content/uploads/2020/07/catalogo-corporativo-2020-plasinca\.pdf$ /prodcutos [R=301,L]
 RewriteRule ^wp-content/uploads/2018/07/catalogo-corporativo-plasinca-2018-ilovepdf-compressed-1\.pdf$ /productos [R=301,L]
+
+# Redirige las URLs con .html a versiones sin .html
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# Reescribe las URLs sin .html a archivos con .html
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [L]
