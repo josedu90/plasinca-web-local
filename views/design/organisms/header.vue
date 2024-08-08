@@ -3,6 +3,7 @@ const { cms } = useContext();
 const { logos, menu, btns } = cms.$settings.common;
 const { shared } = useSharedContext();
 const { products } = shared;
+const { name } = usePage();
 
 function removeColorText(str: string): string {
   // Expresión regular para buscar "(color)"
@@ -65,7 +66,7 @@ if (targetObject)
             </button>
             <molecules-mov-menu ::class="`{'active':state}`" />
           </div>
-          <AtomsButton class="flex-none md:block hidden open-dialog" data-dialog-id="dialog-overlay-1">
+          <AtomsButton v-if="name !== 'conversion'" class="flex-none md:block hidden open-dialog" data-dialog-id="dialog-overlay-1">
             <MoleculesBtnTxtIcon :data="btns.quote" />
           </AtomsButton>
         </div>

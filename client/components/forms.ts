@@ -172,6 +172,13 @@ function createSingleForm() {
             throw new Error('Error');
           }
           else {
+            try {
+              if (gtag)
+                gtag('event', `generate_${_state.values.form}`, {});
+            }
+            catch (error) {
+              console.warn('Error in gtag');
+            }
             this.response.active = true;
             this.spinner = false;
             this.response.containerClases = 'dark:text-green-400 bg-green-100 text-green-800';

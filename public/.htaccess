@@ -14,12 +14,3 @@ RewriteRule ^ %1 [R=301,L]
 # Reescribe las URLs sin .html a archivos con .html
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^ %{REQUEST_URI}.html [L]
-
-<IfModule mod_headers.c>
-  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
-  Header set X-Content-Type-Options "nosniff"
-  Header set X-Frame-Options "SAMEORIGIN"
-  Header set X-XSS-Protection "1; mode=block"
-  Header set Referrer-Policy "no-referrer-when-downgrade"
-  Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
-</IfModule>
